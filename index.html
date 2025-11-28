@@ -24,6 +24,7 @@
                 <ul class="nav-links">
                     <li><a href="#about">About Arakozia</a></li>
                     <li><a href="#products">Our Products</a></li>
+                    <li><a href="#videos">Videos</a></li>
                     <li><a href="#gallery">Gallery</a></li>
                     <li><a href="#contact">Contact Us</a></li>
                     <li>
@@ -46,7 +47,7 @@
                     <!-- Slide 1 -->
                     <div class="slide active">
                         <div class="slide-bg"
-                            style="background-image: linear-gradient(rgba(15, 43, 74, 0.4), rgba(15, 43, 74, 0.4)), url('assets/images/hero-bg.jpg'); background-color: #9caf9c;">
+                            style="background-image: linear-gradient(rgba(15, 43, 74, 0.4), rgba(15, 43, 74, 0.4)), url('assets/images/hero-slide-1.jpg'); background-color: #9caf9c;">
                         </div>
                         <div class="hero-content">
                             <div class="hero-main-text">
@@ -58,7 +59,9 @@
                     </div>
                     <!-- Slide 2 -->
                     <div class="slide">
-                        <div class="slide-bg" style="background-color: #7DA2A9;"></div> <!-- Placeholder Color -->
+                        <div class="slide-bg"
+                            style="background-image: linear-gradient(rgba(15, 43, 74, 0.4), rgba(15, 43, 74, 0.4)), url('assets/images/hero-slide-2.jpg'); background-color: #7DA2A9;">
+                        </div>
                         <div class="hero-content">
                             <div class="hero-main-text">
                                 <h1>Sourced with Care</h1>
@@ -69,12 +72,40 @@
                     </div>
                     <!-- Slide 3 -->
                     <div class="slide">
-                        <div class="slide-bg" style="background-color: #C5A059;"></div> <!-- Placeholder Color -->
+                        <div class="slide-bg"
+                            style="background-image: linear-gradient(rgba(15, 43, 74, 0.4), rgba(15, 43, 74, 0.4)), url('assets/images/hero-slide-3.jpg'); background-color: #C5A059;">
+                        </div>
                         <div class="hero-content">
                             <div class="hero-main-text">
                                 <h1>Global Standards</h1>
                                 <p>Certified excellence in every shipment we deliver.</p>
                                 <a href="#about" class="btn btn-outline">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide 4 -->
+                    <div class="slide">
+                        <div class="slide-bg"
+                            style="background-image: linear-gradient(rgba(15, 43, 74, 0.4), rgba(15, 43, 74, 0.4)), url('assets/images/hero-slide-4.jpg'); background-color: #8fa395;">
+                        </div>
+                        <div class="hero-content">
+                            <div class="hero-main-text">
+                                <h1>Sustainable Sourcing</h1>
+                                <p>Committed to ethical practices and environmental responsibility.</p>
+                                <a href="#products" class="btn btn-outline">Our Products</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide 5 -->
+                    <div class="slide">
+                        <div class="slide-bg"
+                            style="background-image: linear-gradient(rgba(15, 43, 74, 0.4), rgba(15, 43, 74, 0.4)), url('assets/images/hero-slide-5.jpg'); background-color: #6b8577;">
+                        </div>
+                        <div class="hero-content">
+                            <div class="hero-main-text">
+                                <h1>Trusted Worldwide</h1>
+                                <p>Serving premium markets across continents with excellence.</p>
+                                <a href="#contact" class="btn btn-outline">Get Started</a>
                             </div>
                         </div>
                     </div>
@@ -88,6 +119,8 @@
                         <div class="indicator active" data-slide="0"></div>
                         <div class="indicator" data-slide="1"></div>
                         <div class="indicator" data-slide="2"></div>
+                        <div class="indicator" data-slide="3"></div>
+                        <div class="indicator" data-slide="4"></div>
                     </div>
                 </div>
             </div>
@@ -183,11 +216,7 @@
                 <a href="#contact" class="btn btn-dark">Order Now <i class="fa-solid fa-cart-shopping"></i></a>
             </div>
             <div class="feature-image">
-                <!-- Placeholder for Feature Product Image -->
-                <div
-                    style="width: 400px; height: 500px; background: #eee; border-radius: 20px; display: flex; align-items: center; justify-content: center; color: #aaa;">
-                    <i class="fa-solid fa-fish fa-5x"></i>
-                </div>
+                <img src="assets/images/featured-product.jpg" alt="Premium Fresh Salmon">
             </div>
         </div>
     </section>
@@ -271,55 +300,131 @@
         </div>
     </section>
 
-    <!-- Gallery / Product List Section -->
-    <section id="gallery" class="gallery-section">
+    <!-- Product Videos Section -->
+    <section id="videos" class="video-section">
         <div class="container">
             <div style="text-align: center; margin-bottom: 3rem;">
-                <h2>Product Collection</h2>
+                <h2>Product Videos</h2>
             </div>
-            <div class="gallery-grid">
-                <!-- Fish -->
-                <div class="gallery-item">
-                    <div
-                        style="width:100%; height:100%; background:#ccc; display:flex; align-items:center; justify-content:center;">
-                        <i class="fa-solid fa-fish fa-3x"></i>
-                    </div>
-                    <div class="gallery-overlay">
-                        <h3>King Fish</h3>
-                        <p>Fresh & Frozen</p>
-                    </div>
-                </div>
-                <!-- Meat -->
-                <div class="gallery-item">
-                    <div
-                        style="width:100%; height:100%; background:#bbb; display:flex; align-items:center; justify-content:center;">
-                        <i class="fa-solid fa-drumstick-bite fa-3x"></i>
-                    </div>
-                    <div class="gallery-overlay">
-                        <h3>Premium Beef</h3>
-                        <p>High Quality Cuts</p>
+            <div class="video-grid">
+                <!-- Video 1 -->
+                <div class="video-item">
+                    <video controls poster="assets/images/video-thumb-1.jpg">
+                        <source src="assets/videos/product-video-1.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="video-overlay">
+                        <i class="fa-solid fa-play"></i>
                     </div>
                 </div>
-                <!-- Rice -->
-                <div class="gallery-item">
-                    <div
-                        style="width:100%; height:100%; background:#aaa; display:flex; align-items:center; justify-content:center;">
-                        <i class="fa-solid fa-bowl-rice fa-3x"></i>
-                    </div>
-                    <div class="gallery-overlay">
-                        <h3>Basmati Rice</h3>
-                        <p>Long Grain Aromatic</p>
+                <!-- Video 2 -->
+                <div class="video-item">
+                    <video controls poster="assets/images/video-thumb-2.jpg">
+                        <source src="assets/videos/product-video-2.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="video-overlay">
+                        <i class="fa-solid fa-play"></i>
                     </div>
                 </div>
-                <!-- Oil -->
-                <div class="gallery-item">
-                    <div
-                        style="width:100%; height:100%; background:#999; display:flex; align-items:center; justify-content:center;">
-                        <i class="fa-solid fa-bottle-droplet fa-3x"></i>
+                <!-- Video 3 -->
+                <div class="video-item">
+                    <video controls poster="assets/images/video-thumb-3.jpg">
+                        <source src="assets/videos/product-video-3.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="video-overlay">
+                        <i class="fa-solid fa-play"></i>
                     </div>
-                    <div class="gallery-overlay">
-                        <h3>Sunflower Oil</h3>
-                        <p>Pure & Refined</p>
+                </div>
+                <!-- Video 4 -->
+                <div class="video-item">
+                    <video controls poster="assets/images/video-thumb-4.jpg">
+                        <source src="assets/videos/product-video-4.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="video-overlay">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+                <!-- Video 5 -->
+                <div class="video-item">
+                    <video controls poster="assets/images/video-thumb-5.jpg">
+                        <source src="assets/videos/product-video-5.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="video-overlay">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+                <!-- Video 6 -->
+                <div class="video-item">
+                    <video controls poster="assets/images/video-thumb-6.jpg">
+                        <source src="assets/videos/product-video-6.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="video-overlay">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Gallery Section -->
+    <section id="gallery" class="product-gallery-section">
+        <div class="container">
+            <div style="text-align: center; margin-bottom: 3rem;">
+                <h2>Product Gallery</h2>
+            </div>
+            <div class="product-gallery-grid">
+                <!-- Gallery Item 1 - Portrait -->
+                <div class="gallery-item-new portrait">
+                    <img src="assets/images/gallery-1.jpg" alt="Product Image 1">
+                    <div class="gallery-item-overlay">
+                        <h3>Fresh Products</h3>
+                    </div>
+                </div>
+                <!-- Gallery Item 2 - Landscape Wide -->
+                <div class="gallery-item-new landscape-wide">
+                    <img src="assets/images/gallery-2.jpg" alt="Product Image 2">
+                    <div class="gallery-item-overlay">
+                        <h3>Premium Quality</h3>
+                    </div>
+                </div>
+                <!-- Gallery Item 3 - Portrait -->
+                <div class="gallery-item-new portrait">
+                    <img src="assets/images/gallery-3.jpg" alt="Product Image 3">
+                    <div class="gallery-item-overlay">
+                        <h3>Natural Ingredients</h3>
+                    </div>
+                </div>
+                <!-- Gallery Item 4 - Square -->
+                <div class="gallery-item-new square">
+                    <img src="assets/images/gallery-4.jpg" alt="Product Image 4">
+                    <div class="gallery-item-overlay">
+                        <h3>Healthy Choice</h3>
+                    </div>
+                </div>
+                <!-- Gallery Item 5 - Portrait -->
+                <div class="gallery-item-new portrait">
+                    <img src="assets/images/gallery-5.jpg" alt="Product Image 5">
+                    <div class="gallery-item-overlay">
+                        <h3>Refreshing Taste</h3>
+                    </div>
+                </div>
+                <!-- Gallery Item 6 - Landscape -->
+                <div class="gallery-item-new landscape">
+                    <img src="assets/images/gallery-6.jpg" alt="Product Image 6">
+                    <div class="gallery-item-overlay">
+                        <h3>Milaf Cola</h3>
+                    </div>
+                </div>
+                <!-- Gallery Item 7 - Square -->
+                <div class="gallery-item-new square">
+                    <img src="assets/images/gallery-7.jpg" alt="Product Image 7">
+                    <div class="gallery-item-overlay">
+                        <h3>Tropical Flavors</h3>
                     </div>
                 </div>
             </div>
@@ -329,17 +434,20 @@
     <!-- FAQ Section -->
     <section class="faq-section">
         <div class="container faq-container">
-            <div class="faq-image">
-                <i class="fa-solid fa-clipboard-question fa-5x"></i>
+            <div class="faq-image-card">
+                <img src="assets/images/faq-product.jpg" alt="Arakozia Products">
             </div>
             <div class="faq-content">
-                <h5>FAQ</h5>
+                <p class="faq-label">FAQ</p>
                 <h2>Frequently Asked Questions</h2>
 
                 <div class="faq-item">
                     <div class="faq-question">
+                        <div class="faq-icon-left">
+                            <i class="fa-solid fa-circle-check"></i>
+                        </div>
                         <span>What makes Arakozia products unique?</span>
-                        <div class="faq-icon"><i class="fa-solid fa-plus"></i></div>
+                        <div class="faq-icon-right"><i class="fa-solid fa-plus"></i></div>
                     </div>
                     <div class="faq-answer">
                         <p>Arakozia products are sourced directly from premium producers and handled with
@@ -350,23 +458,29 @@
 
                 <div class="faq-item">
                     <div class="faq-question">
-                        <span>Do you offer bulk wholesale pricing?</span>
-                        <div class="faq-icon"><i class="fa-solid fa-plus"></i></div>
+                        <div class="faq-icon-left">
+                            <i class="fa-solid fa-leaf"></i>
+                        </div>
+                        <span>Are Arakozia products made with natural ingredients?</span>
+                        <div class="faq-icon-right"><i class="fa-solid fa-plus"></i></div>
                     </div>
                     <div class="faq-answer">
-                        <p>Yes, we specialize in bulk exports for wholesalers, distributors, and large retail chains.
-                            Contact us for a customized quote.</p>
+                        <p>Yes, all our products are made with 100% natural ingredients sourced from trusted suppliers,
+                            ensuring the highest quality and authenticity.</p>
                     </div>
                 </div>
 
                 <div class="faq-item">
                     <div class="faq-question">
-                        <span>What regions do you ship to?</span>
-                        <div class="faq-icon"><i class="fa-solid fa-plus"></i></div>
+                        <div class="faq-icon-left">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                        <span>Where can I buy Arakozia products?</span>
+                        <div class="faq-icon-right"><i class="fa-solid fa-plus"></i></div>
                     </div>
                     <div class="faq-answer">
-                        <p>We export globally, with established shipping routes to major markets in Europe, Asia, and
-                            the Middle East.</p>
+                        <p>Our products are available through authorized distributors and wholesalers worldwide. Contact
+                            us for information about retailers in your area.</p>
                     </div>
                 </div>
             </div>
@@ -404,7 +518,7 @@
     <section id="contact" class="distributor-section">
         <div class="container distributor-container">
             <div class="distributor-text">
-                <h2>Information to<br>become a<br>distributor/<br>wholesaler</h2>
+                <h2>Information to become a distributor/ wholesaler</h2>
             </div>
             <div class="distributor-form-wrapper">
                 <form>
@@ -424,11 +538,12 @@
                         <input type="text" class="form-control" placeholder="Your Website">
                     </div>
                     <div class="form-group">
-                        <textarea class="form-control" rows="3"
-                            placeholder="Company Overview (Include: Main Product Categories, SKU count, etc.)"></textarea>
+                        <textarea class="form-control" rows="4"
+                            placeholder="Company Overview"></textarea>
+                        <small class="form-hint">Include: Your Main Product Categories, How many different products / SKUs you stock (approx), A brief description of your business.</small>
                     </div>
                     <div class="form-group">
-                        <textarea class="form-control" rows="3" placeholder="Message"></textarea>
+                        <textarea class="form-control" rows="4" placeholder="Message"></textarea>
                     </div>
                     <button type="submit" class="form-submit-btn">Submit</button>
                 </form>
