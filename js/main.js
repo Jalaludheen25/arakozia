@@ -69,10 +69,14 @@ document.addEventListener('DOMContentLoaded', () => {
     const nextBtn = document.querySelector('.next-btn');
     const indicators = document.querySelectorAll('.indicator');
     let currentSlide = 0;
-    const slideIntervalTime = 5000; // 5 seconds
+    const slideIntervalTime = 5000; // 5 seconds - matches animation duration
     let slideInterval;
+    let isTransitioning = false;
 
     function showSlide(index) {
+        if (isTransitioning) return;
+        isTransitioning = true;
+
         // Handle wrap-around
         if (index < 0) {
             currentSlide = slides.length - 1;
@@ -82,7 +86,7 @@ document.addEventListener('DOMContentLoaded', () => {
             currentSlide = index;
         }
 
-        // Update slides
+        // Update slides with smooth transition
         slides.forEach((slide, i) => {
             if (i === currentSlide) {
                 slide.classList.add('active');
@@ -91,7 +95,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
 
-        // Update indicators
+        // Update indicators with animation
         indicators.forEach((indicator, i) => {
             if (i === currentSlide) {
                 indicator.classList.add('active');
@@ -99,6 +103,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 indicator.classList.remove('active');
             }
         });
+
+        // Allow next transition after animation completes
+        setTimeout(() => {
+            isTransitioning = false;
+        }, 800);
     }
 
     function nextSlide() {
@@ -129,7 +138,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // Auto Play
+    // Auto Play with smooth continuous loop
     function startInterval() {
         slideInterval = setInterval(nextSlide, slideIntervalTime);
     }
@@ -137,6 +146,18 @@ document.addEventListener('DOMContentLoaded', () => {
     function resetInterval() {
         clearInterval(slideInterval);
         startInterval();
+    }
+
+    // Pause on hover for better UX
+    const sliderCard = document.querySelector('.hero-slider-card');
+    if (sliderCard) {
+        sliderCard.addEventListener('mouseenter', () => {
+            clearInterval(slideInterval);
+        });
+
+        sliderCard.addEventListener('mouseleave', () => {
+            startInterval();
+        });
     }
 
     // Start slider if slides exist
