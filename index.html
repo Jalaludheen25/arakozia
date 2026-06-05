@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arakozia | Premium Global Exports</title>
+    <meta name="description" content="Arakozia - Exporting premium fresh fish, meat, rice, grains, and oils worldwide.">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="#" class="logo">
+                    <img src="assets/images/Arakozia-icon.png" alt="Arakozia Logo">
+                </a>
+                <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <ul class="nav-links">
+                    <li><a href="#about">About Arakozia</a></li>
+                    <li><a href="products.html">Our Products</a></li>
+                    <li><a href="#videos">Videos</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                    <li>
+                        <a href="#" class="cart-icon">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <span class="cart-count">0</span>
+                        </a>
+                    </li>
+                    <li><a href="#contact" class="btn">Get Quote</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section - Slider Card -->
+    <section class="hero-wrapper">
+        <div class="container">
+            <div class="hero-slider-card">
+                <div class="slider-container">
+                    <!-- Slide 1 -->
+                    <div class="slide active">
+                        <div class="slide-bg"
+                            style="background-image: linear-gradient(rgba(15, 43, 74, 0.4), rgba(15, 43, 74, 0.4)), url('assets/images/hero-slide-1.jpg'); background-color: #9caf9c;">
+                        </div>
+                        <div class="hero-content">
+                            <div class="hero-main-text">
+                                <h1>Premium Global Exports</h1>
+                                <p>Fresh Fish • Premium Meat • Quality Grains • Pure Oils</p>
+                                <a href="#products" class="btn btn-outline">Explore Collection</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide 2 -->
+                    <div class="slide">
+                        <div class="slide-bg"
+                            style="background-image: linear-gradient(rgba(15, 43, 74, 0.4), rgba(15, 43, 74, 0.4)), url('assets/images/hero-slide-2.jpg'); background-color: #7DA2A9;">
+                        </div>
+                        <div class="hero-content">
+                            <div class="hero-main-text">
+                                <h1>Sourced with Care</h1>
+                                <p>Delivering the finest quality from nature to your doorstep.</p>
+                                <a href="#contact" class="btn btn-outline">Partner With Us</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide 3 -->
+                    <div class="slide">
+                        <div class="slide-bg"
+                            style="background-image: linear-gradient(rgba(15, 43, 74, 0.4), rgba(15, 43, 74, 0.4)), url('assets/images/hero-slide-3.jpg'); background-color: #C5A059;">
+                        </div>
+                        <div class="hero-content">
+                            <div class="hero-main-text">
+                                <h1>Global Standards</h1>
+                                <p>Certified excellence in every shipment we deliver.</p>
+                                <a href="#about" class="btn btn-outline">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide 4 -->
+                    <div class="slide">
+                        <div class="slide-bg"
+                            style="background-image: linear-gradient(rgba(15, 43, 74, 0.4), rgba(15, 43, 74, 0.4)), url('assets/images/hero-slide-4.jpg'); background-color: #8fa395;">
+                        </div>
+                        <div class="hero-content">
+                            <div class="hero-main-text">
+                                <h1>Sustainable Sourcing</h1>
+                                <p>Committed to ethical practices and environmental responsibility.</p>
+                                <a href="#products" class="btn btn-outline">Our Products</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide 5 -->
+                    <div class="slide">
+                        <div class="slide-bg"
+                            style="background-image: linear-gradient(rgba(15, 43, 74, 0.4), rgba(15, 43, 74, 0.4)), url('assets/images/hero-slide-5.jpg'); background-color: #6b8577;">
+                        </div>
+                        <div class="hero-content">
+                            <div class="hero-main-text">
+                                <h1>Trusted Worldwide</h1>
+                                <p>Serving premium markets across continents with excellence.</p>
+                                <a href="#contact" class="btn btn-outline">Get Started</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Navigation Controls -->
+                    <button class="slider-btn prev-btn"><i class="fa-solid fa-chevron-left"></i></button>
+                    <button class="slider-btn next-btn"><i class="fa-solid fa-chevron-right"></i></button>
+
+                    <!-- Indicators -->
+                    <div class="slider-indicators">
+                        <div class="indicator active" data-slide="0"></div>
+                        <div class="indicator" data-slide="1"></div>
+                        <div class="indicator" data-slide="2"></div>
+                        <div class="indicator" data-slide="3"></div>
+                        <div class="indicator" data-slide="4"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Background Text moved outside or removed if it clashes with card style. 
+             Reference image doesn't show the huge background text behind the card clearly, 
+             but let's keep it subtle behind the card if possible, or remove it for clean look.
+             Let's remove it for now to match the clean card look. -->
+    </section>
+
+    <!-- About & Values Section (Reference Layout: Grid Left, Text Right) -->
+    <section id="about" class="container">
+        <div class="about-layout">
+            <div class="values-grid-wrapper">
+                <div class="values-grid">
+                    <!-- Card 1 -->
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <div class="value-icon"><i class="fa-regular fa-circle-dot"></i></div>
+                                <h3>Heritage Ambassador</h3>
+                            </div>
+                            <div class="flip-card-back">
+                                <p>“Arakozia aims to be the global ambassador for heritage products, enriching lives and
+                                    sharing cultural significance worldwide.”</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <div class="value-icon"><i class="fa-solid fa-compress"></i></div>
+                                <h3>Cultivating Prestige</h3>
+                            </div>
+                            <div class="flip-card-back">
+                                <p>“Our mission is to celebrate and promote heritage by creating premium brands that
+                                    blend tradition with modern trends.”</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <div class="value-icon"><i class="fa-regular fa-face-smile"></i></div>
+                                <h3>Elevating Excellence</h3>
+                            </div>
+                            <div class="flip-card-back">
+                                <p>“Promoting premium organic products worldwide, honoring their heritage while driving
+                                    sustainable growth.”</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 4 -->
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <div class="value-icon"><i class="fa-regular fa-thumbs-up"></i></div>
+                                <h3>Consumer Perfection</h3>
+                            </div>
+                            <div class="flip-card-back">
+                                <p>“Creating premium brands that embody tradition while delivering modern excellence
+                                    tailored to evolving expectations.”</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- Right: About Text -->
+            <div class="about-text-wrapper">
+                <h2>About Arakozia<br>Export Company</h2>
+                <p>Arakozia is a premier export company dedicated to bridging the gap between quality producers and
+                    global markets. We specialize in delivering the freshest seafood, finest meats, and essential grains
+                    to clients worldwide.</p>
+                <p>Our commitment to excellence ensures that every product, from our King Fish to our Premium Basmati
+                    Rice, meets the highest international standards of safety and taste.</p>
+                <a href="#contact" class="btn btn-dark">Contact Us <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Feature Section (Reference: Milaf Cola Highlight) -->
+    <section id="products" class="product-feature">
+        <div class="container feature-container">
+            <div class="feature-text">
+                <h5>Discover Our Finest</h5>
+                <h2>Premium Fresh Salmon</h2>
+                <p>Sourced from the pristine cold waters, our premium salmon is renowned for its rich flavor, vibrant
+                    color, and superior texture. Air-flown daily to ensure maximum freshness for our global clientele.
+                </p>
+                <p>Rich in Omega-3s and handled with the utmost care, our salmon represents the pinnacle of Arakozia's
+                    seafood collection.</p>
+                <a href="#contact" class="btn btn-dark">Order Now <i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+            <div class="feature-image">
+                <img src="assets/images/featured-product.jpg" alt="Premium Fresh Salmon">
+            </div>
+        </div>
+    </section>
+
+    <!-- Traditional Grains & Spices Section -->
+    <section class="grains-spices-section">
+        <div class="container">
+            <div class="section-header">
+                <div class="decorative-divider">
+                    <i class="fa-solid fa-leaf"></i>
+                </div>
+                <h2>Traditional <span class="highlight-text">Grains & Aromatic Spices</span></h2>
+                <p class="section-subtitle">Discover Traditional Grains and Aromatic Spices, Handpicked for Purity, Enhancing Flavor, Nutrition, and Authenticity in Every Delicious Meal.</p>
+            </div>
+
+            <div class="products-grid">
+                <!-- Food Grains Card -->
+                <div class="product-card">
+                    <div class="product-image-wrapper">
+                        <img src="assets/images/products/food-grains.jpg" alt="Food Grains">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title"><a href="products.html?category=food-grains" style="color: inherit; text-decoration: none;">Food Grains</a></h3>
+                        <ul class="product-list">
+                            <li><i class="fa-solid fa-chevron-right"></i> <a href="products.html?category=food-grains&product=pearl-millet" style="color: inherit; text-decoration: none;">Pearl Millet Seeds</a></li>
+                            <li><i class="fa-solid fa-chevron-right"></i> <a href="products.html?category=food-grains&product=white-sorghum" style="color: inherit; text-decoration: none;">White Sorghum Seeds</a></li>
+                            <li><i class="fa-solid fa-chevron-right"></i> <a href="products.html?category=food-grains&product=basmati-rice" style="color: inherit; text-decoration: none;">Premium Basmati Rice</a></li>
+                            <li><i class="fa-solid fa-chevron-right"></i> <a href="products.html?category=food-grains&product=organic-pulses" style="color: inherit; text-decoration: none;">Organic Pulses</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Whole Spices Card -->
+                <div class="product-card">
+                    <div class="product-image-wrapper">
+                        <img src="assets/images/products/whole-spices.jpg" alt="Whole Spices">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title"><a href="products.html?category=whole-spices" style="color: inherit; text-decoration: none;">Whole Spices</a></h3>
+                        <ul class="product-list">
+                            <li><i class="fa-solid fa-chevron-right"></i> <a href="products.html?category=whole-spices&product=black-mustard" style="color: inherit; text-decoration: none;">Black Mustard Seeds</a></li>
+                            <li><i class="fa-solid fa-chevron-right"></i> <a href="products.html?category=whole-spices&product=curom-seeds" style="color: inherit; text-decoration: none;">Curom Seeds</a></li>
+                            <li><i class="fa-solid fa-chevron-right"></i> <a href="products.html?category=whole-spices&product=coriander-seeds" style="color: inherit; text-decoration: none;">Coriander Seeds</a></li>
+                            <li><i class="fa-solid fa-chevron-right"></i> <a href="products.html?category=whole-spices&product=cumin-seeds" style="color: inherit; text-decoration: none;">Cumin Seeds</a></li>
+                            <li><i class="fa-solid fa-chevron-right"></i> <a href="products.html?category=whole-spices&product=green-cardamom" style="color: inherit; text-decoration: none;">Green Cardamom</a></li>
+                        </ul>
+                        <a href="products.html?category=whole-spices" class="view-all-link">+ View all</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section (Merged Features & Stats) -->
+    <section class="why-choose-section">
+        <div class="container">
+            <div class="why-choose-header">
+                <h2>Premium Global Exports</h2>
+                <p>Arakozia is a premier export company specializing in premium seafood, quality meats, essential grains, and pure cooking oils. We deliver excellence from source to destination, ensuring the highest standards of freshness and quality in every shipment.</p>
+            </div>
+
+            <div class="triad-grid">
+                <!-- Card 1 -->
+                <div class="feature-flip-card">
+                    <div class="feature-flip-card-inner">
+                        <div class="feature-flip-card-front">
+                            <div class="feature-icon"><i class="fa-solid fa-fish"></i></div>
+                            <h3>Premium Seafood</h3>
+                            <p>Fresh and frozen fish including salmon, king fish, shrimps, tuna, and tilapia. Sourced from pristine waters and handled with care.</p>
+                        </div>
+                        <div class="feature-flip-card-back">
+                            <h3>Ocean's Finest</h3>
+                            <p>Air-flown fresh seafood and expertly frozen options to meet diverse market needs worldwide.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="feature-flip-card">
+                    <div class="feature-flip-card-inner">
+                        <div class="feature-flip-card-front">
+                            <div class="feature-icon"><i class="fa-solid fa-wheat-awn"></i></div>
+                            <h3>Quality Grains & Rice</h3>
+                            <p>Premium basmati and all varieties of rice, pulses, and grains. Carefully selected for superior quality and taste.</p>
+                        </div>
+                        <div class="feature-flip-card-back">
+                            <h3>Harvest Excellence</h3>
+                            <p>From farm to table, our grains meet international standards for purity and nutrition.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="feature-flip-card">
+                    <div class="feature-flip-card-inner">
+                        <div class="feature-flip-card-front">
+                            <div class="feature-icon"><i class="fa-solid fa-drumstick-bite"></i></div>
+                            <h3>Premium Meats & Oils</h3>
+                            <p>High-quality chicken, mutton, and beef. Pure cooking oils including sunflower, vegetable, and olive oil.</p>
+                        </div>
+                        <div class="feature-flip-card-back">
+                            <h3>Quality Assured</h3>
+                            <p>Certified meats and pure oils meeting global food safety and quality standards.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number">15M+</div>
+                    <div class="stat-label">Satisfied Customers</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">100%</div>
+                    <div class="stat-label">Taste</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">100%</div>
+                    <div class="stat-label">Health Check</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">100%</div>
+                    <div class="stat-label">Standards</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Videos Section -->
+    <section id="videos" class="video-section">
+        <div class="container">
+            <div style="text-align: center; margin-bottom: 3rem;">
+                <h2>Product Videos</h2>
+            </div>
+            <div class="video-grid">
+                <!-- Video 1 -->
+                <div class="video-item">
+                    <video autoplay muted loop playsinline controls poster="assets/images/video-thumb-1.jpg">
+                        <source src="assets/videos/product-video-1.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <!-- Video 2 -->
+                <div class="video-item">
+                    <video autoplay muted loop playsinline controls poster="assets/images/video-thumb-2.jpg">
+                        <source src="assets/videos/product-video-2.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <!-- Video 3 -->
+                <div class="video-item">
+                    <video autoplay muted loop playsinline controls poster="assets/images/video-thumb-3.jpg">
+                        <source src="assets/videos/product-video-3.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <!-- Video 4 -->
+                <div class="video-item">
+                    <video autoplay muted loop playsinline controls poster="assets/images/video-thumb-4.jpg">
+                        <source src="assets/videos/product-video-4.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <!-- Video 5 -->
+                <div class="video-item">
+                    <video autoplay muted loop playsinline controls poster="assets/images/video-thumb-5.jpg">
+                        <source src="assets/videos/product-video-5.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <!-- Video 6 -->
+                <div class="video-item">
+                    <video autoplay muted loop playsinline controls poster="assets/images/video-thumb-6.jpg">
+                        <source src="assets/videos/product-video-6.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Gallery Section -->
+    <section id="gallery" class="product-gallery-section">
+        <div class="container">
+            <div style="text-align: center; margin-bottom: 3rem;">
+                <h2>Product Gallery</h2>
+            </div>
+            <div class="product-gallery-grid">
+                <!-- Gallery Item 1 - Portrait -->
+                <div class="gallery-item-new portrait">
+                    <img src="assets/images/gallery-1.jpg" alt="Product Image 1">
+                    <div class="gallery-item-overlay">
+                        <h3>Natural Ingredients</h3>
+                    </div>
+                </div>
+                <!-- Gallery Item 2 - Landscape Wide -->
+                <div class="gallery-item-new landscape-wide">
+                    <img src="assets/images/gallery-2.jpg" alt="Product Image 2">
+                    <div class="gallery-item-overlay">
+                        <h3>Premium Quality</h3>
+                    </div>
+                </div>
+                <!-- Gallery Item 3 - Portrait -->
+                <div class="gallery-item-new portrait">
+                    <img src="assets/images/gallery-3.jpg" alt="Product Image 3">
+                    <div class="gallery-item-overlay">
+                        <h3>Fresh Products</h3>
+                    </div>
+                </div>
+                <!-- Gallery Item 4 - Square -->
+                <div class="gallery-item-new square">
+                    <img src="assets/images/gallery-4.jpg" alt="Product Image 4">
+                    <div class="gallery-item-overlay">
+                        <h3>Healthy Choice</h3>
+                    </div>
+                </div>
+                <!-- Gallery Item 5 - Portrait -->
+                <div class="gallery-item-new portrait">
+                    <img src="assets/images/gallery-5.jpg" alt="Product Image 5">
+                    <div class="gallery-item-overlay">
+                        <h3>Global Excellence</h3>
+                    </div>
+                </div>
+                <!-- Gallery Item 6 - Landscape -->
+                <div class="gallery-item-new landscape">
+                    <img src="assets/images/gallery-6.jpg" alt="Product Image 6">
+                    <div class="gallery-item-overlay">
+                        <h3>Sustainable Sourcing</h3>
+                    </div>
+                </div>
+                <!-- Gallery Item 7 - Square -->
+                <div class="gallery-item-new square">
+                    <img src="assets/images/gallery-7.jpg" alt="Product Image 7">
+                    <div class="gallery-item-overlay">
+                        <h3>Tropical Flavors</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container faq-container">
+            <div class="faq-image-card">
+                <img src="assets/images/faq-product.jpg" alt="Arakozia Products">
+            </div>
+            <div class="faq-content">
+                <p class="faq-label">FAQ</p>
+                <h2>Frequently Asked Questions</h2>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <div class="faq-icon-left">
+                            <i class="fa-solid fa-circle-check"></i>
+                        </div>
+                        <span>What makes Arakozia products unique?</span>
+                        <div class="faq-icon-right"><i class="fa-solid fa-plus"></i></div>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Arakozia products are sourced directly from premium producers and handled with
+                            state-of-the-art cold chain logistics to ensure unmatched freshness and quality upon
+                            delivery.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <div class="faq-icon-left">
+                            <i class="fa-solid fa-leaf"></i>
+                        </div>
+                        <span>Are Arakozia products made with natural ingredients?</span>
+                        <div class="faq-icon-right"><i class="fa-solid fa-plus"></i></div>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, all our products are made with 100% natural ingredients sourced from trusted suppliers,
+                            ensuring the highest quality and authenticity.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <div class="faq-icon-left">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                        <span>Where can I buy Arakozia products?</span>
+                        <div class="faq-icon-right"><i class="fa-solid fa-plus"></i></div>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Our products are available through authorized distributors and wholesalers worldwide. Contact
+                            us for information about retailers in your area.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Info Bar -->
+    <section class="contact-info-bar">
+        <div class="container">
+            <h2 style="margin-bottom: 3rem;">Get in touch with us!</h2>
+            <div class="contact-info-grid">
+                <div class="contact-info-item">
+                    <i class="fa-solid fa-phone contact-info-icon"></i>
+                    <h4>Contacts</h4>
+                    <p>+971 4 579 3509</p>
+                    <p>+971 4 579 3509 (WhatsApp)</p>
+                </div>
+                <div class="contact-info-item">
+                    <i class="fa-solid fa-location-dot contact-info-icon"></i>
+                    <h4>Addresses</h4>
+                    <p>Office # 904, Executive Bay-B</p>
+                    <p>Business Bay, Dubai U.A.E</p>
+                </div>
+                <div class="contact-info-item">
+                    <i class="fa-solid fa-envelope contact-info-icon"></i>
+                    <h4>Emails</h4>
+                    <p>info@arakozia.ae</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Distributor Form Section -->
+    <section id="contact" class="distributor-section">
+        <div class="container distributor-container">
+            <div class="distributor-text">
+                <h2>Information to become a distributor/ wholesaler</h2>
+            </div>
+            <div class="distributor-form-wrapper">
+                <form>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Your Name & Position" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Your Business Name & ABN/ACN" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Your Contact Details" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Your Website">
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" rows="4"
+                            placeholder="Company Overview"></textarea>
+                        <small class="form-hint">Include: Your Main Product Categories, How many different products / SKUs you stock (approx), A brief description of your business.</small>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" rows="4" placeholder="Message"></textarea>
+                    </div>
+                    <button type="submit" class="form-submit-btn">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h4>Arakozia</h4>
+                    <p>Your trusted partner in global food exports.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><i class="fa-solid fa-envelope"></i> info@arakozia.ae</li>
+                        <li><i class="fa-solid fa-phone"></i> +971 4 579 3509</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Arakozia. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
