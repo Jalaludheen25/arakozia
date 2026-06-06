@@ -226,39 +226,24 @@ const productsData = {
             }
         ]
     },
-    'nuts-seeds': {
-        title: 'Nuts, Seeds & More',
-        description: 'Leading Exporters, Wholesaler and Trader of Walnuts, Pumpkin seeds, Garlic, Ginger, and Apple.',
+    'veg-fruits': {
+        title: 'Vegetables & Fruits',
+        description: 'Leading Exporters, Wholesaler and Trader of Apple, Garlic, and Ginger.',
         products: [
             {
-                id: 'walnuts',
-                name: 'Walnuts',
+                id: 'apple',
+                name: 'Apple',
                 price: 'Ask for Price',
                 priceDetails: '',
                 moq: '100 Kilogram (MOQ)',
-                image: 'assets/images/Walnuts.jpeg',
+                image: 'assets/images/Apple.jpeg',
                 specs: {
                     'Business Type': 'Exporter, Supplier, Trader',
-                    'Packaging Type': 'PP Bags, Cartons',
+                    'Packaging Type': 'Cartons',
                     'Quality Available': 'A Grade'
                 },
-                description: 'Premium quality walnuts carefully sourced for the best taste and nutritional value.',
-                features: ['Natural cultivation', 'High quality']
-            },
-            {
-                id: 'pumpkin-seeds',
-                name: 'Pumpkin seeds',
-                price: 'Ask for Price',
-                priceDetails: '',
-                moq: '100 Kilogram (MOQ)',
-                image: 'assets/images/Pumpkin seeds.jpeg',
-                specs: {
-                    'Business Type': 'Exporter, Supplier, Trader',
-                    'Packaging Type': 'PP Bags, Cartons',
-                    'Quality Available': 'A Grade'
-                },
-                description: 'High-quality pumpkin seeds, perfect for healthy diets and various culinary applications.',
-                features: ['Natural cultivation', 'High quality']
+                description: 'Fresh and premium quality apples sourced directly from farms.',
+                features: ['Natural cultivation', 'High quality', 'Fresh']
             },
             {
                 id: 'garlic',
@@ -289,21 +274,42 @@ const productsData = {
                 },
                 description: 'Fresh and premium quality ginger, essential for various cuisines.',
                 features: ['Natural cultivation', 'High quality']
-            },
+            }
+        ]
+    },
+    'seeds-nuts': {
+        title: 'Seeds & Nuts',
+        description: 'Leading Exporters, Wholesaler and Trader of Walnuts and Pumpkin seeds.',
+        products: [
             {
-                id: 'apple',
-                name: 'Apple',
+                id: 'walnuts',
+                name: 'Walnuts',
                 price: 'Ask for Price',
                 priceDetails: '',
                 moq: '100 Kilogram (MOQ)',
-                image: 'assets/images/Apple.jpeg',
+                image: 'assets/images/Walnuts.jpeg',
                 specs: {
                     'Business Type': 'Exporter, Supplier, Trader',
-                    'Packaging Type': 'Cartons',
+                    'Packaging Type': 'PP Bags, Cartons',
                     'Quality Available': 'A Grade'
                 },
-                description: 'Fresh and premium quality apples sourced directly from farms.',
-                features: ['Natural cultivation', 'High quality', 'Fresh']
+                description: 'Premium quality walnuts carefully sourced for the best taste and nutritional value.',
+                features: ['Natural cultivation', 'High quality']
+            },
+            {
+                id: 'pumpkin-seeds',
+                name: 'Pumpkin seeds',
+                price: 'Ask for Price',
+                priceDetails: '',
+                moq: '100 Kilogram (MOQ)',
+                image: 'assets/images/Pumpkin seeds.jpeg',
+                specs: {
+                    'Business Type': 'Exporter, Supplier, Trader',
+                    'Packaging Type': 'PP Bags, Cartons',
+                    'Quality Available': 'A Grade'
+                },
+                description: 'High-quality pumpkin seeds, perfect for healthy diets and various culinary applications.',
+                features: ['Natural cultivation', 'High quality']
             }
         ]
     }
