@@ -225,6 +225,87 @@ const productsData = {
                 ]
             }
         ]
+    },
+    'nuts-seeds': {
+        title: 'Nuts, Seeds & More',
+        description: 'Leading Exporters, Wholesaler and Trader of Walnuts, Pumpkin seeds, Garlic, Ginger, and Apple.',
+        products: [
+            {
+                id: 'walnuts',
+                name: 'Walnuts',
+                price: 'Ask for Price',
+                priceDetails: '',
+                moq: '100 Kilogram (MOQ)',
+                image: 'assets/images/Walnuts.jpeg',
+                specs: {
+                    'Business Type': 'Exporter, Supplier, Trader',
+                    'Packaging Type': 'PP Bags, Cartons',
+                    'Quality Available': 'A Grade'
+                },
+                description: 'Premium quality walnuts carefully sourced for the best taste and nutritional value.',
+                features: ['Natural cultivation', 'High quality']
+            },
+            {
+                id: 'pumpkin-seeds',
+                name: 'Pumpkin seeds',
+                price: 'Ask for Price',
+                priceDetails: '',
+                moq: '100 Kilogram (MOQ)',
+                image: 'assets/images/Pumpkin seeds.jpeg',
+                specs: {
+                    'Business Type': 'Exporter, Supplier, Trader',
+                    'Packaging Type': 'PP Bags, Cartons',
+                    'Quality Available': 'A Grade'
+                },
+                description: 'High-quality pumpkin seeds, perfect for healthy diets and various culinary applications.',
+                features: ['Natural cultivation', 'High quality']
+            },
+            {
+                id: 'garlic',
+                name: 'Garlic',
+                price: 'Ask for Price',
+                priceDetails: '',
+                moq: '100 Kilogram (MOQ)',
+                image: 'assets/images/Garlic.jpeg',
+                specs: {
+                    'Business Type': 'Exporter, Supplier, Trader',
+                    'Packaging Type': 'Mesh Bags, Cartons',
+                    'Quality Available': 'A Grade'
+                },
+                description: 'Fresh and premium quality garlic with rich aroma and flavor.',
+                features: ['Natural cultivation', 'High quality']
+            },
+            {
+                id: 'ginger',
+                name: 'Ginger',
+                price: 'Ask for Price',
+                priceDetails: '',
+                moq: '100 Kilogram (MOQ)',
+                image: 'assets/images/Ginger.jpeg',
+                specs: {
+                    'Business Type': 'Exporter, Supplier, Trader',
+                    'Packaging Type': 'Mesh Bags, Cartons',
+                    'Quality Available': 'A Grade'
+                },
+                description: 'Fresh and premium quality ginger, essential for various cuisines.',
+                features: ['Natural cultivation', 'High quality']
+            },
+            {
+                id: 'apple',
+                name: 'Apple',
+                price: 'Ask for Price',
+                priceDetails: '',
+                moq: '100 Kilogram (MOQ)',
+                image: 'assets/images/Apple.jpeg',
+                specs: {
+                    'Business Type': 'Exporter, Supplier, Trader',
+                    'Packaging Type': 'Cartons',
+                    'Quality Available': 'A Grade'
+                },
+                description: 'Fresh and premium quality apples sourced directly from farms.',
+                features: ['Natural cultivation', 'High quality', 'Fresh']
+            }
+        ]
     }
 };
 
