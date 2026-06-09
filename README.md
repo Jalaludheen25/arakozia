@@ -1,6 +1,6 @@
 # Arakozia - Premium Global Exports Website
 
-A modern, responsive website for Arakozia, a premium export company specializing in seafood, grains, spices, meats, and cooking oils.
+A modern, responsive website for Arakozia, a premium import & export company specializing in seafood, grains, spices, meats, and cooking oils.
 
 ![Arakozia](assets/images/Arakozia-icon.png)
 
@@ -8,7 +8,7 @@ A modern, responsive website for Arakozia, a premium export company specializing
 
 ## 🌟 Project Overview
 
-Arakozia is a professional export company website featuring:
+Arakozia is a professional import & export company website featuring:
 - Animated hero slider
 - Product catalog with mini cards and detailed views
 - Interactive flip cards
