@@ -1,4 +1,4 @@
-# Arakozia - Premium Global Exports Website
+# Arakozia - Premium Global Exports and Imports Website
 
 A modern, responsive website for Arakozia, a premium import & export company specializing in seafood, grains, spices, meats, and cooking oils.
 
@@ -42,7 +42,7 @@ Arakozia is a professional import & export company website featuring:
 - **About Section** - 4 flip cards with company values (vertical flip on desktop, tap-to-flip on mobile)
 - **Featured Product** - Highlighted product showcase with call-to-action
 - **Traditional Grains & Spices** - Product category cards with clickable items
-- **Premium Global Exports** - 3 flip cards showcasing product categories
+- **Premium Global Exports and Imports** - 3 flip cards showcasing product categories
 - **Stats Cards** - 4 statistics cards (15M+ customers, 100% quality metrics)
 - **Product Videos** - 6 autoplay videos without controls (muted, looping)
 - **Product Gallery** - Masonry grid layout with 7 images
@@ -210,7 +210,7 @@ Then visit `http://localhost:8000` in your browser.
 - Links to products page
 - Pista green gradient background
 
-#### 6. Premium Global Exports Section
+#### 6. Premium Global Exports and Imports Section
 - 3 flip cards (seafood, grains, meats)
 - 4 stats cards (overlapping design)
 - Dark green to light green gradient
@@ -293,7 +293,7 @@ Then visit `http://localhost:8000` in your browser.
 /* Hero wrapper */
 background: linear-gradient(180deg, #dcead9 0%, #ffffff 100%);
 
-/* Premium exports section */
+/* Premium exports and imports section */
 background: linear-gradient(180deg, #4E6E5D 0%, #9caf9c 100%);
 
 /* Button gradient */
@@ -375,7 +375,7 @@ Edit `js/products.js` and add to the appropriate category:
     moq: '500 Kilogram (MOQ)',
     image: 'assets/images/products/product-name.jpg',
     specs: {
-        'Business Type': 'Exporter, Supplier, Trader',
+        'Business Type': \'Exporter and Importer, Supplier, Trader\',
         'Grade': 'Premium Grade',
         // Add more specifications
     },
@@ -540,7 +540,7 @@ Edit `css/style.css`:
 
 ## 📞 Contact & Support
 
-**Company:** Arakozia Premium Global Exports
+**Company:** Arakozia Premium Global Exports and Imports
 
 **Email:** info@arakozia.ae
 
@@ -578,4 +578,4 @@ This project is proprietary and confidential. All rights reserved by Arakozia.
 
 ---
 
-Made with ❤️ for Arakozia Premium Global Exports
+Made with ❤️ for Arakozia Premium Global Exports and Imports

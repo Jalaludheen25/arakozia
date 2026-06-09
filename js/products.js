@@ -2,7 +2,7 @@
 const productsData = {
     'food-grains': {
         title: 'Food Grains',
-        description: 'Leading Exporters, Wholesaler and Trader of Pearl Millet Seeds and White Sorghum Seeds from Ahmedabad.',
+        description: 'Leading Exporters and Importers, Wholesaler and Trader of Pearl Millet Seeds and White Sorghum Seeds from Ahmedabad.',
         products: [
             {
                 id: 'pearl-millet',
@@ -12,7 +12,7 @@ const productsData = {
                 moq: '1000 Kilogram (MOQ)',
                 image: 'assets/images/products/pearl-millet.jpg',
                 specs: {
-                    'Business Type': 'Exporter, Supplier, Trader',
+                    'Business Type': \'Exporter and Importer, Supplier, Trader\',
                     'Grade': 'Human Grade',
                     'Packaging Type': 'PP Bag',
                     'Packaging Size': '25kg, 50kg, 100kg, 40kg',
@@ -36,7 +36,7 @@ const productsData = {
                 moq: '1000 Kilogram (MOQ)',
                 image: 'assets/images/products/white-sorghum.jpg',
                 specs: {
-                    'Business Type': 'Exporter, Supplier, Trader',
+                    'Business Type': \'Exporter and Importer, Supplier, Trader\',
                     'Grade': 'Food Grade',
                     'Certification': 'FSSAI',
                     'Cultivation Type': 'Natural',
@@ -61,7 +61,7 @@ const productsData = {
                 moq: '500 Kilogram (MOQ)',
                 image: 'assets/images/products/basmati-rice.jpg',
                 specs: {
-                    'Business Type': 'Exporter, Supplier, Trader',
+                    'Business Type': \'Exporter and Importer, Supplier, Trader\',
                     'Grade': 'Premium Grade',
                     'Grain Length': 'Extra Long',
                     'Purity': '99.5%',
@@ -85,7 +85,7 @@ const productsData = {
                 moq: '500 Kilogram (MOQ)',
                 image: 'assets/images/products/organic-pulses.jpg',
                 specs: {
-                    'Business Type': 'Exporter, Supplier, Trader',
+                    'Business Type': \'Exporter and Importer, Supplier, Trader\',
                     'Grade': 'Organic Grade',
                     'Certification': 'Organic Certified',
                     'Purity': '99%',
@@ -103,7 +103,7 @@ const productsData = {
     },
     'whole-spices': {
         title: 'Whole Spices',
-        description: 'Leading Exporters, Wholesaler and Trader of Black Mustard Seeds, Curom Seeds, coriander seeds, cumin seeds, Fennel Seeds, fenugreek seeds and green cardamom from Ahmedabad.',
+        description: 'Leading Exporters and Importers, Wholesaler and Trader of Black Mustard Seeds, Curom Seeds, coriander seeds, cumin seeds, Fennel Seeds, fenugreek seeds and green cardamom from Ahmedabad.',
         products: [
             {
                 id: 'black-mustard',
@@ -113,7 +113,7 @@ const productsData = {
                 moq: '500 Kilogram (MOQ)',
                 image: 'assets/images/products/black-mustard.jpg',
                 specs: {
-                    'Business Type': 'Exporter, Supplier, Trader',
+                    'Business Type': \'Exporter and Importer, Supplier, Trader\',
                     'Packaging Size': '25Kg, 50Kg, 100kg',
                     'Cultivation Type': 'Natural',
                     'Quality Available': 'A Grade',
@@ -138,7 +138,7 @@ const productsData = {
                 moq: '50 Kilogram (MOQ)',
                 image: 'assets/images/products/curom-seeds.jpg',
                 specs: {
-                    'Business Type': 'Exporter, Supplier, Trader',
+                    'Business Type': \'Exporter and Importer, Supplier, Trader\',
                     'Speciality': 'Pesticide Pre (For Raw Products), No Artificial Flavour, No Preservatives, Bitter Taste, Hot And Pungent',
                     'Storage Condition': 'Dried',
                     'Usage/Application': 'Cooking Flavoring Vegetarian Dishes, Improving Cholesterol Levels, Lower Blood Pressure, Fighting Peptic Ulcers, Improving Digestion, Preventing Coughing, Improving Airflow, Hair And Skin Health',
@@ -163,7 +163,7 @@ const productsData = {
                 moq: '500 Kilogram (MOQ)',
                 image: 'assets/images/products/coriander-seeds.jpg',
                 specs: {
-                    'Business Type': 'Exporter, Supplier, Trader',
+                    'Business Type': \'Exporter and Importer, Supplier, Trader\',
                     'Grade': 'Food Grade',
                     'Purity': '99%',
                     'Packaging': '25kg, 50kg bags'
@@ -184,7 +184,7 @@ const productsData = {
                 moq: '500 Kilogram (MOQ)',
                 image: 'assets/images/products/cumin-seeds.jpg',
                 specs: {
-                    'Business Type': 'Exporter, Supplier, Trader',
+                    'Business Type': \'Exporter and Importer, Supplier, Trader\',
                     'Grade': 'Premium Grade',
                     'Purity': '99.5%',
                     'Packaging': '25kg, 50kg bags'
@@ -205,7 +205,7 @@ const productsData = {
                 moq: '100 Kilogram (MOQ)',
                 image: 'assets/images/products/green-cardamom.jpg',
                 specs: {
-                    'Business Type': 'Exporter, Supplier, Trader',
+                    'Business Type': \'Exporter and Importer, Supplier, Trader\',
                     'Grade': 'Premium Grade',
                     'Color': 'Green',
                     'Purity': '99%',
@@ -228,7 +228,7 @@ const productsData = {
     },
     'veg-fruits': {
         title: 'Vegetables & Fruits',
-        description: 'Leading Exporters, Wholesaler and Trader of Apple, Garlic, and Ginger.',
+        description: 'Leading Exporters and Importers, Wholesaler and Trader of Apple, Garlic, and Ginger.',
         products: [
             {
                 id: 'apple',
@@ -238,7 +238,7 @@ const productsData = {
                 moq: '100 Kilogram (MOQ)',
                 image: 'assets/images/Apple.jpeg',
                 specs: {
-                    'Business Type': 'Exporter, Supplier, Trader',
+                    'Business Type': \'Exporter and Importer, Supplier, Trader\',
                     'Packaging Type': 'Cartons',
                     'Quality Available': 'A Grade'
                 },
@@ -253,7 +253,7 @@ const productsData = {
                 moq: '100 Kilogram (MOQ)',
                 image: 'assets/images/Garlic.jpeg',
                 specs: {
-                    'Business Type': 'Exporter, Supplier, Trader',
+                    'Business Type': \'Exporter and Importer, Supplier, Trader\',
                     'Packaging Type': 'Mesh Bags, Cartons',
                     'Quality Available': 'A Grade'
                 },
@@ -268,7 +268,7 @@ const productsData = {
                 moq: '100 Kilogram (MOQ)',
                 image: 'assets/images/Ginger.jpeg',
                 specs: {
-                    'Business Type': 'Exporter, Supplier, Trader',
+                    'Business Type': \'Exporter and Importer, Supplier, Trader\',
                     'Packaging Type': 'Mesh Bags, Cartons',
                     'Quality Available': 'A Grade'
                 },
@@ -279,7 +279,7 @@ const productsData = {
     },
     'seeds-nuts': {
         title: 'Seeds & Nuts',
-        description: 'Leading Exporters, Wholesaler and Trader of Walnuts and Pumpkin seeds.',
+        description: 'Leading Exporters and Importers, Wholesaler and Trader of Walnuts and Pumpkin seeds.',
         products: [
             {
                 id: 'walnuts',
@@ -289,7 +289,7 @@ const productsData = {
                 moq: '100 Kilogram (MOQ)',
                 image: 'assets/images/Walnuts.jpeg',
                 specs: {
-                    'Business Type': 'Exporter, Supplier, Trader',
+                    'Business Type': \'Exporter and Importer, Supplier, Trader\',
                     'Packaging Type': 'PP Bags, Cartons',
                     'Quality Available': 'A Grade'
                 },
@@ -304,7 +304,7 @@ const productsData = {
                 moq: '100 Kilogram (MOQ)',
                 image: 'assets/images/Pumpkin seeds.jpeg',
                 specs: {
-                    'Business Type': 'Exporter, Supplier, Trader',
+                    'Business Type': \'Exporter and Importer, Supplier, Trader\',
                     'Packaging Type': 'PP Bags, Cartons',
                     'Quality Available': 'A Grade'
                 },
