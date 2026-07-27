@@ -96,9 +96,9 @@ const productsData = {
             }
         ]
     },
-    'food-grains': {
-        title: 'Food Grains',
-        description: 'Leading Exporters and Importers, Wholesaler and Trader of Pearl Millet Seeds and White Sorghum Seeds from Ahmedabad.',
+    'food-grains-spices': {
+        title: 'Food Grains & Whole Spices',
+        description: 'Combination of traditional food grains and aromatic whole spices handpicked for purity.',
         products: [
             {
                 id: 'pearl-millet',
@@ -194,13 +194,7 @@ const productsData = {
                     'Rich in nutrients',
                     'Chemical-free'
                 ]
-            }
-        ]
-    },
-    'whole-spices': {
-        title: 'Whole Spices',
-        description: 'Leading Exporters and Importers, Wholesaler and Trader of Black Mustard Seeds, Curom Seeds, coriander seeds, cumin seeds, Fennel Seeds, fenugreek seeds and green cardamom from Ahmedabad.',
-        products: [
+            },
             {
                 id: 'black-mustard',
                 name: 'Black Mustard Seeds',
@@ -283,6 +277,8 @@ const productsData = {
                     'Business Type': 'Exporter and Importer, Supplier, Trader',
                     'Grade': 'Premium Grade',
                     'Purity': '99.5%',
+                    'Moisture': 'Max 12%',
+                    'Broken Grains': 'Max 1%',
                     'Packaging': '25kg, 50kg bags'
                 },
                 description: 'High-quality cumin seeds with distinctive aroma. Perfect for tempering and flavoring dishes.',
@@ -319,6 +315,205 @@ const productsData = {
                     'Natural cultivation',
                     'High oil content'
                 ]
+            },
+            {
+                id: 'black-pepper',
+                name: 'Black Pepper',
+                price: 'Ask for Price',
+                priceDetails: '',
+                moq: '100 Kilogram (MOQ)',
+                image: 'assets/images/black_pepper.jpg',
+                specs: {
+                    'Business Type': 'Exporter and Importer, Supplier, Trader',
+                    'Grade': 'Premium Grade',
+                    'Quality Available': 'A Grade',
+                    'Packaging Type': 'PP Bags, Cartons',
+                    'Drying Process': 'Sun Dry'
+                },
+                description: 'Premium quality black pepper bold berries with strong aroma, pungent taste, and high piperine content, sourced from the finest spice farms.',
+                features: [
+                    'Strong aroma',
+                    'Pungent flavor',
+                    'Sun dried',
+                    '100% organic & natural'
+                ]
+            }
+        ]
+    },
+    'seafood-frozen': {
+        title: 'Sea food / Frozen items',
+        description: 'Premium quality fresh seafood and frozen items, air-flown and handled with certified care.',
+        products: [
+            {
+                id: 'fresh-salman',
+                name: 'Fresh salman',
+                price: 'Ask for Price',
+                priceDetails: '',
+                moq: '100 Kilogram (MOQ)',
+                image: 'assets/images/featured-product.jpg',
+                specs: {
+                    'Business Type': 'Exporter and Importer, Supplier',
+                    'Storage': 'Chilled (-1°C to 2°C)',
+                    'Quality Available': 'A Grade Premium'
+                },
+                description: 'Fresh salmon sourced from cold waters, rich in flavor and Omega-3.',
+                features: ['Freshly harvested', 'Rich in Omega-3', 'Premium Grade']
+            },
+            {
+                id: 'salman-filley',
+                name: 'Salman filley',
+                price: 'Ask for Price',
+                priceDetails: '',
+                moq: '100 Kilogram (MOQ)',
+                image: 'assets/images/featured-product.jpg',
+                specs: {
+                    'Business Type': 'Exporter and Importer, Supplier',
+                    'Storage': 'Frozen (-18°C)',
+                    'Quality Available': 'A Grade'
+                },
+                description: 'Cleaned and precision-cut salmon fillet ready for cooking.',
+                features: ['Boneless fillet', 'Vacuum packed', 'High quality']
+            },
+            {
+                id: 'sea-bream-bass',
+                name: 'Sea bream / Sea bass',
+                price: 'Ask for Price',
+                priceDetails: '',
+                moq: '100 Kilogram (MOQ)',
+                image: 'assets/images/seabass.png',
+                specs: {
+                    'Business Type': 'Exporter and Importer, Supplier',
+                    'Storage': 'Fresh / Frozen',
+                    'Quality Available': 'A Grade'
+                },
+                description: 'Fresh Sea Bream and Sea Bass caught daily and stored under optimum temperature.',
+                features: ['Delicious mild taste', 'Fresh / Frozen', 'Sustainably caught']
+            },
+            {
+                id: 'shrimps',
+                name: 'Shrimps',
+                price: 'Ask for Price',
+                priceDetails: '',
+                moq: '100 Kilogram (MOQ)',
+                image: 'assets/images/featured-product.jpg',
+                specs: {
+                    'Business Type': 'Exporter and Importer, Supplier',
+                    'Packaging': 'Blocks / IQF',
+                    'Quality Available': 'A Grade'
+                },
+                description: 'Premium quality juicy shrimps, peeled or whole frozen.',
+                features: ['IQF Frozen', 'Nutritious & Fresh', 'Export Grade']
+            },
+            {
+                id: 'lobstar',
+                name: 'Lobstar',
+                price: 'Ask for Price',
+                priceDetails: '',
+                moq: '50 Kilogram (MOQ)',
+                image: 'assets/images/lobster.png',
+                specs: {
+                    'Business Type': 'Exporter and Importer, Supplier',
+                    'Storage': 'Live / Frozen',
+                    'Quality Available': 'A Grade'
+                },
+                description: 'Succulent wild-caught lobster delivered with maximum freshness.',
+                features: ['Premium seafood', 'Rich taste', 'Carefully packed']
+            },
+            {
+                id: 'mackerel',
+                name: 'Mackerel',
+                price: 'Ask for Price',
+                priceDetails: '',
+                moq: '100 Kilogram (MOQ)',
+                image: 'assets/images/featured-product.jpg',
+                specs: {
+                    'Business Type': 'Exporter and Importer, Supplier',
+                    'Storage': 'Frozen (-18°C)',
+                    'Quality Available': 'A Grade'
+                },
+                description: 'Whole frozen mackerel packed with essential fatty acids and natural flavor.',
+                features: ['High Omega-3', 'Frozen fresh', 'A Grade']
+            }
+        ]
+    },
+    'general-items': {
+        title: 'General Items',
+        description: 'Essential food products, condiments, oils and frozen items for daily culinary excellence.',
+        products: [
+            {
+                id: 'french-fries',
+                name: 'French fries',
+                price: 'Ask for Price',
+                priceDetails: '',
+                moq: '500 Kilogram (MOQ)',
+                image: 'assets/images/french frises.png',
+                specs: {
+                    'Business Type': 'Exporter and Importer, Supplier',
+                    'Packaging': 'Carton (10kg/20kg)',
+                    'Cut Type': 'Straight Cut / Crinkle Cut'
+                },
+                description: 'Crispy premium frozen french fries made from top-grade potatoes.',
+                features: ['Golden crispiness', 'Easy to fry', 'Long shelf life']
+            },
+            {
+                id: 'eggs',
+                name: "Egg's",
+                price: 'Ask for Price',
+                priceDetails: '',
+                moq: '100 Cartons (MOQ)',
+                image: 'assets/images/faq-product.jpg',
+                specs: {
+                    'Business Type': 'Exporter and Importer, Supplier',
+                    'Packaging': 'Export Master Cartons (360 Eggs)',
+                    'Grade': 'A Grade Fresh Eggs'
+                },
+                description: 'Farm fresh table eggs, high in protein and carefully packed for transport.',
+                features: ['Farm fresh', 'Strong shells', 'Hygienic packaging']
+            },
+            {
+                id: 'sunflower-oil',
+                name: 'Sunflower / vegetable oil',
+                price: 'Ask for Price',
+                priceDetails: '',
+                moq: '500 Liters (MOQ)',
+                image: 'assets/images/faq-product.jpg',
+                specs: {
+                    'Business Type': 'Exporter and Importer, Supplier',
+                    'Packaging': '1L, 5L PET Bottles, Drums',
+                    'Quality': 'Refined Pure'
+                },
+                description: 'Pure refined sunflower and vegetable cooking oil for everyday cooking.',
+                features: ['100% Refined', 'Cholesterol free', 'Rich in Vitamin E']
+            },
+            {
+                id: 'ketchup',
+                name: 'Ketchup',
+                price: 'Ask for Price',
+                priceDetails: '',
+                moq: '100 Cartons (MOQ)',
+                image: 'assets/images/ketchup.jpg',
+                specs: {
+                    'Business Type': 'Exporter and Importer, Supplier',
+                    'Packaging': 'Squeeze Bottles, Pouches, Bulk Jars',
+                    'Grade': 'Food Grade'
+                },
+                description: 'Rich tomato ketchup crafted from ripe sun-drenched tomatoes.',
+                features: ['Rich tomato flavor', 'No artificial colors', 'High quality']
+            },
+            {
+                id: 'tomato-paste',
+                name: 'Tomato paste',
+                price: 'Ask for Price',
+                priceDetails: '',
+                moq: '100 Cartons (MOQ)',
+                image: 'assets/images/faq-product.jpg',
+                specs: {
+                    'Business Type': 'Exporter and Importer, Supplier',
+                    'Brix': '28-30%',
+                    'Packaging': 'Cans / Drums'
+                },
+                description: 'Double concentrated thick tomato paste for rich sauces and stews.',
+                features: ['Double concentrated', 'Natural red color', 'Pure tomato paste']
             }
         ]
     }
@@ -334,8 +529,13 @@ function getUrlParameter(name) {
 
 // Load products based on URL parameters
 function loadProducts() {
-    const category = getUrlParameter('category');
+    let category = getUrlParameter('category');
     const productId = getUrlParameter('product');
+    
+    // Redirect/map legacy categories to merged category
+    if (category === 'food-grains' || category === 'whole-spices') {
+        category = 'food-grains-spices';
+    }
     
     const pageTitle = document.getElementById('page-title');
     const pageDescription = document.getElementById('page-description');
@@ -367,7 +567,7 @@ function loadProducts() {
     } else {
         // Show all categories with mini cards
         pageTitle.textContent = 'Our Products';
-        pageDescription.textContent = 'Browse our premium selection of food grains and whole spices.';
+        pageDescription.textContent = 'Browse our premium selection of food grains, aromatic spices, fresh seafood and general items.';
         productsContainer.classList.remove('products-list');
         productsContainer.classList.add('products-grid-view');
         
