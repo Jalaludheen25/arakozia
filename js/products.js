@@ -476,7 +476,7 @@ const productsData = {
                 price: 'Ask for Price',
                 priceDetails: '',
                 moq: '500 Liters (MOQ)',
-                image: 'assets/images/faq-product.jpg',
+                image: 'assets/images/gallery-1.jpg',
                 specs: {
                     'Business Type': 'Exporter and Importer, Supplier',
                     'Packaging': '1L, 5L PET Bottles, Drums',
