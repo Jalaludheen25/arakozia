@@ -365,7 +365,7 @@ const productsData = {
                 price: 'Ask for Price',
                 priceDetails: '',
                 moq: '100 Kilogram (MOQ)',
-                image: 'assets/images/featured-product.jpg',
+                image: 'assets/images/salman filley.jpeg',
                 specs: {
                     'Business Type': 'Exporter and Importer, Supplier',
                     'Storage': 'Frozen (-18°C)',
@@ -395,7 +395,7 @@ const productsData = {
                 price: 'Ask for Price',
                 priceDetails: '',
                 moq: '100 Kilogram (MOQ)',
-                image: 'assets/images/featured-product.jpg',
+                image: 'assets/images/Shrimps.jpeg',
                 specs: {
                     'Business Type': 'Exporter and Importer, Supplier',
                     'Packaging': 'Blocks / IQF',
@@ -425,7 +425,7 @@ const productsData = {
                 price: 'Ask for Price',
                 priceDetails: '',
                 moq: '100 Kilogram (MOQ)',
-                image: 'assets/images/featured-product.jpg',
+                image: 'assets/images/Mackerel.jpg',
                 specs: {
                     'Business Type': 'Exporter and Importer, Supplier',
                     'Storage': 'Frozen (-18°C)',
@@ -461,7 +461,7 @@ const productsData = {
                 price: 'Ask for Price',
                 priceDetails: '',
                 moq: '100 Cartons (MOQ)',
-                image: 'assets/images/faq-product.jpg',
+                image: 'assets/images/eggs.webp',
                 specs: {
                     'Business Type': 'Exporter and Importer, Supplier',
                     'Packaging': 'Export Master Cartons (360 Eggs)',
@@ -506,7 +506,7 @@ const productsData = {
                 price: 'Ask for Price',
                 priceDetails: '',
                 moq: '100 Cartons (MOQ)',
-                image: 'assets/images/faq-product.jpg',
+                image: 'assets/images/Tomato-Paste.jpg',
                 specs: {
                     'Business Type': 'Exporter and Importer, Supplier',
                     'Brix': '28-30%',
