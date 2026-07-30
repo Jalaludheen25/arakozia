@@ -407,12 +407,12 @@ const productsData = {
         ]
     },
     'seafood-frozen': {
-        title: 'Sea food / Frozen items',
+        title: 'Fresh & Frozen sea foods',
         description: 'Premium quality fresh seafood and frozen items, air-flown and handled with certified care.',
         products: [
             {
-                id: 'fresh-salman',
-                name: 'Fresh salman',
+                id: 'fresh-salmon',
+                name: 'Fresh Salmon',
                 price: 'Ask for Price',
                 priceDetails: '',
                 moq: '100 Kilogram (MOQ)',
@@ -430,8 +430,8 @@ const productsData = {
                 features: ['Freshly harvested', 'Rich in Omega-3', 'Premium Grade']
             },
             {
-                id: 'salman-filley',
-                name: 'Salman filley',
+                id: 'salmon-fillet',
+                name: 'Salmon Fillets',
                 price: 'Ask for Price',
                 priceDetails: '',
                 moq: '100 Kilogram (MOQ)',
@@ -487,8 +487,8 @@ const productsData = {
                 features: ['IQF Frozen', 'Nutritious & Fresh', 'Export Grade']
             },
             {
-                id: 'lobstar',
-                name: 'Lobstar',
+                id: 'lobster',
+                name: 'Lobster',
                 price: 'Ask for Price',
                 priceDetails: '',
                 moq: '50 Kilogram (MOQ)',
@@ -657,12 +657,17 @@ function switchProductImage(thumbElement, imgSrc) {
 // Load products based on URL parameters
 function loadProducts() {
     let category = getUrlParameter('category');
-    const productId = getUrlParameter('product');
+    let productId = getUrlParameter('product');
     
     // Redirect/map legacy categories to merged category
     if (category === 'food-grains' || category === 'whole-spices') {
         category = 'food-grains-spices';
     }
+
+    // Redirect/map legacy product IDs
+    if (productId === 'fresh-salman') productId = 'fresh-salmon';
+    if (productId === 'salman-filley') productId = 'salmon-fillet';
+    if (productId === 'lobstar') productId = 'lobster';
     
     const pageTitle = document.getElementById('page-title');
     const pageDescription = document.getElementById('page-description');
