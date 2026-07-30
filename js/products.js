@@ -268,7 +268,7 @@ const productsData = {
             },
             {
                 id: 'curom-seeds',
-                name: 'Curom Seeds',
+                name: 'Carom Seeds',
                 price: '₹ 160.00',
                 priceDetails: '/ Kilogram (+ 5% GST applicable)',
                 moq: '50 Kilogram (MOQ)',
@@ -287,7 +287,7 @@ const productsData = {
                     'Packaging Size': '10Kg, 20Kg, 25Kg, 50Kg',
                     'Cultivation Type': 'Natural'
                 },
-                description: 'Carom Seed is used to flavor vegetarian dishes primarily legumes and bread dishes. In Indian cuisine, Ajowan/Curom seeds are added during the tadka or tempering process of cooking. Bitter taste, Hot and pungent. Carom Seed can be stored indefinitely if kept from light in airtight containers. Being a strong aromatic spice, green that the lid is tightly closed to retain the freshness of the spic.',
+                description: 'Carom Seed is used to flavor vegetarian dishes primarily legumes and bread dishes. In Indian cuisine, Ajwain/Carom seeds are added during the tadka or tempering process of cooking. Bitter taste, Hot and pungent. Carom Seed can be stored indefinitely if kept from light in airtight containers. Being a strong aromatic spice, ensure that the lid is tightly closed to retain the freshness of the spice.',
                 features: [
                     'Pesticide free',
                     'No artificial flavour',
@@ -551,7 +551,7 @@ const productsData = {
             },
             {
                 id: 'eggs',
-                name: "Egg's",
+                name: 'Eggs',
                 price: 'Ask for Price',
                 priceDetails: '',
                 moq: '100 Cartons (MOQ)',
