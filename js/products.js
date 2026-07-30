@@ -11,6 +11,10 @@ const productsData = {
                 priceDetails: '',
                 moq: '100 Kilogram (MOQ)',
                 image: 'assets/images/Garlic.jpeg',
+                images: [
+                    'assets/images/Garlic.jpeg',
+                    'assets/images/GARLIC 1.jpg'
+                ],
                 specs: {
                     'Business Type': 'Exporter and Importer, Supplier, Trader',
                     'Packaging Type': 'Mesh Bags, Cartons',
@@ -26,6 +30,10 @@ const productsData = {
                 priceDetails: '',
                 moq: '100 Kilogram (MOQ)',
                 image: 'assets/images/Ginger.jpeg',
+                images: [
+                    'assets/images/Ginger.jpeg',
+                    'assets/images/GINGER.png'
+                ],
                 specs: {
                     'Business Type': 'Exporter and Importer, Supplier, Trader',
                     'Packaging Type': 'Mesh Bags, Cartons',
@@ -41,6 +49,11 @@ const productsData = {
                 priceDetails: '',
                 moq: '100 Kilogram (MOQ)',
                 image: 'assets/images/veg.jpeg',
+                images: [
+                    'assets/images/veg.jpeg',
+                    'assets/images/MIXED VEGETABLES.png',
+                    'assets/images/mix-veg.jpeg'
+                ],
                 specs: {
                     'Business Type': 'Exporter and Importer, Supplier, Trader',
                     'Packaging Type': 'Cartons',
@@ -56,6 +69,10 @@ const productsData = {
                 priceDetails: '',
                 moq: '100 Kilogram (MOQ)',
                 image: 'assets/images/Apple.jpeg',
+                images: [
+                    'assets/images/Apple.jpeg',
+                    'assets/images/APPLE.png'
+                ],
                 specs: {
                     'Business Type': 'Exporter and Importer, Supplier, Trader',
                     'Packaging Type': 'Cartons',
@@ -71,6 +88,10 @@ const productsData = {
                 priceDetails: '',
                 moq: '100 Kilogram (MOQ)',
                 image: 'assets/images/Walnuts.jpeg',
+                images: [
+                    'assets/images/Walnuts.jpeg',
+                    'assets/images/WALNUTS.png'
+                ],
                 specs: {
                     'Business Type': 'Exporter and Importer, Supplier, Trader',
                     'Packaging Type': 'PP Bags, Cartons',
@@ -86,6 +107,10 @@ const productsData = {
                 priceDetails: '',
                 moq: '100 Kilogram (MOQ)',
                 image: 'assets/images/Pumpkin seeds.jpeg',
+                images: [
+                    'assets/images/Pumpkin seeds.jpeg',
+                    'assets/images/PUMPKIN SEEDS.png'
+                ],
                 specs: {
                     'Business Type': 'Exporter and Importer, Supplier, Trader',
                     'Packaging Type': 'PP Bags, Cartons',
@@ -107,6 +132,10 @@ const productsData = {
                 priceDetails: '/ Kilogram (+ 5% GST applicable)',
                 moq: '1000 Kilogram (MOQ)',
                 image: 'assets/images/products/pearl-millet.jpg',
+                images: [
+                    'assets/images/products/pearl-millet.jpg',
+                    'assets/images/BAJARA.png'
+                ],
                 specs: {
                     'Business Type': 'Exporter and Importer, Supplier, Trader',
                     'Grade': 'Human Grade',
@@ -131,6 +160,10 @@ const productsData = {
                 priceDetails: '/ Kilogram (+ 5% GST applicable)',
                 moq: '1000 Kilogram (MOQ)',
                 image: 'assets/images/products/white-sorghum.jpg',
+                images: [
+                    'assets/images/products/white-sorghum.jpg',
+                    'assets/images/WHITE SORGHUM SEEDS.png'
+                ],
                 specs: {
                     'Business Type': 'Exporter and Importer, Supplier, Trader',
                     'Grade': 'Food Grade',
@@ -156,6 +189,11 @@ const productsData = {
                 priceDetails: '/ Kilogram (+ 5% GST applicable)',
                 moq: '500 Kilogram (MOQ)',
                 image: 'assets/images/products/basmati-rice.jpg',
+                images: [
+                    'assets/images/products/basmati-rice.jpg',
+                    'assets/images/PREMIUM BASUMATHI RICE.png',
+                    'assets/images/products/basmati-rice-2.jpg'
+                ],
                 specs: {
                     'Business Type': 'Exporter and Importer, Supplier, Trader',
                     'Grade': 'Premium Grade',
@@ -180,6 +218,10 @@ const productsData = {
                 priceDetails: '/ Kilogram (+ 5% GST applicable)',
                 moq: '500 Kilogram (MOQ)',
                 image: 'assets/images/products/organic-pulses.jpg',
+                images: [
+                    'assets/images/products/organic-pulses.jpg',
+                    'assets/images/ORGANIC PULSE.png'
+                ],
                 specs: {
                     'Business Type': 'Exporter and Importer, Supplier, Trader',
                     'Grade': 'Organic Grade',
@@ -202,6 +244,10 @@ const productsData = {
                 priceDetails: '/ Kilogram (+ 5% GST applicable)',
                 moq: '500 Kilogram (MOQ)',
                 image: 'assets/images/products/black-mustard.jpg',
+                images: [
+                    'assets/images/products/black-mustard.jpg',
+                    'assets/images/products/whole-spices.jpg'
+                ],
                 specs: {
                     'Business Type': 'Exporter and Importer, Supplier, Trader',
                     'Packaging Size': '25Kg, 50Kg, 100kg',
@@ -227,6 +273,10 @@ const productsData = {
                 priceDetails: '/ Kilogram (+ 5% GST applicable)',
                 moq: '50 Kilogram (MOQ)',
                 image: 'assets/images/products/curom-seeds.jpg',
+                images: [
+                    'assets/images/products/curom-seeds.jpg',
+                    'assets/images/CAROM SEEDS.png'
+                ],
                 specs: {
                     'Business Type': 'Exporter and Importer, Supplier, Trader',
                     'Speciality': 'Pesticide Pre (For Raw Products), No Artificial Flavour, No Preservatives, Bitter Taste, Hot And Pungent',
@@ -252,6 +302,10 @@ const productsData = {
                 priceDetails: '/ Kilogram (+ 5% GST applicable)',
                 moq: '500 Kilogram (MOQ)',
                 image: 'assets/images/products/coriander-seeds.jpg',
+                images: [
+                    'assets/images/products/coriander-seeds.jpg',
+                    'assets/images/products/whole-spices.jpg'
+                ],
                 specs: {
                     'Business Type': 'Exporter and Importer, Supplier, Trader',
                     'Grade': 'Food Grade',
@@ -273,6 +327,10 @@ const productsData = {
                 priceDetails: '/ Kilogram (+ 5% GST applicable)',
                 moq: '500 Kilogram (MOQ)',
                 image: 'assets/images/products/cumin-seeds.jpg',
+                images: [
+                    'assets/images/products/cumin-seeds.jpg',
+                    'assets/images/CUMIN SEEDS.png'
+                ],
                 specs: {
                     'Business Type': 'Exporter and Importer, Supplier, Trader',
                     'Grade': 'Premium Grade',
@@ -296,6 +354,10 @@ const productsData = {
                 priceDetails: '/ Kilogram (+ 5% GST applicable)',
                 moq: '100 Kilogram (MOQ)',
                 image: 'assets/images/products/green-cardamom.jpg',
+                images: [
+                    'assets/images/products/green-cardamom.jpg',
+                    'assets/images/Green Cardamom.png'
+                ],
                 specs: {
                     'Business Type': 'Exporter and Importer, Supplier, Trader',
                     'Grade': 'Premium Grade',
@@ -323,6 +385,10 @@ const productsData = {
                 priceDetails: '',
                 moq: '100 Kilogram (MOQ)',
                 image: 'assets/images/black_pepper.jpg',
+                images: [
+                    'assets/images/black_pepper.jpg',
+                    'assets/images/Black Pepper.png'
+                ],
                 specs: {
                     'Business Type': 'Exporter and Importer, Supplier, Trader',
                     'Grade': 'Premium Grade',
@@ -351,6 +417,10 @@ const productsData = {
                 priceDetails: '',
                 moq: '100 Kilogram (MOQ)',
                 image: 'assets/images/featured-product.jpg',
+                images: [
+                    'assets/images/featured-product.jpg',
+                    'assets/images/FRESH SALMON.png'
+                ],
                 specs: {
                     'Business Type': 'Exporter and Importer, Supplier',
                     'Storage': 'Chilled (-1°C to 2°C)',
@@ -366,6 +436,10 @@ const productsData = {
                 priceDetails: '',
                 moq: '100 Kilogram (MOQ)',
                 image: 'assets/images/salman filley.jpeg',
+                images: [
+                    'assets/images/salman filley.jpeg',
+                    'assets/images/SALMON FILLEY.png'
+                ],
                 specs: {
                     'Business Type': 'Exporter and Importer, Supplier',
                     'Storage': 'Frozen (-18°C)',
@@ -381,6 +455,10 @@ const productsData = {
                 priceDetails: '',
                 moq: '100 Kilogram (MOQ)',
                 image: 'assets/images/seabass.png',
+                images: [
+                    'assets/images/seabass.png',
+                    'assets/images/Sea bream OR Sea bass.png'
+                ],
                 specs: {
                     'Business Type': 'Exporter and Importer, Supplier',
                     'Storage': 'Fresh / Frozen',
@@ -396,6 +474,10 @@ const productsData = {
                 priceDetails: '',
                 moq: '100 Kilogram (MOQ)',
                 image: 'assets/images/Shrimps.jpeg',
+                images: [
+                    'assets/images/Shrimps.jpeg',
+                    'assets/images/SHRIMPS.png'
+                ],
                 specs: {
                     'Business Type': 'Exporter and Importer, Supplier',
                     'Packaging': 'Blocks / IQF',
@@ -411,6 +493,10 @@ const productsData = {
                 priceDetails: '',
                 moq: '50 Kilogram (MOQ)',
                 image: 'assets/images/lobster.png',
+                images: [
+                    'assets/images/lobster.png',
+                    'assets/images/lobster -1.png'
+                ],
                 specs: {
                     'Business Type': 'Exporter and Importer, Supplier',
                     'Storage': 'Live / Frozen',
@@ -426,6 +512,10 @@ const productsData = {
                 priceDetails: '',
                 moq: '100 Kilogram (MOQ)',
                 image: 'assets/images/Mackerel.jpg',
+                images: [
+                    'assets/images/Mackerel.jpg',
+                    'assets/images/Mackerel.png'
+                ],
                 specs: {
                     'Business Type': 'Exporter and Importer, Supplier',
                     'Storage': 'Frozen (-18°C)',
@@ -447,6 +537,10 @@ const productsData = {
                 priceDetails: '',
                 moq: '500 Kilogram (MOQ)',
                 image: 'assets/images/french frises.png',
+                images: [
+                    'assets/images/french frises.png',
+                    'assets/images/frozen french frises.png'
+                ],
                 specs: {
                     'Business Type': 'Exporter and Importer, Supplier',
                     'Packaging': 'Carton (10kg/20kg)',
@@ -462,6 +556,11 @@ const productsData = {
                 priceDetails: '',
                 moq: '100 Cartons (MOQ)',
                 image: 'assets/images/eggs.webp',
+                images: [
+                    'assets/images/eggs.webp',
+                    'assets/images/eggs1.jpg',
+                    'assets/images/eggs (2).jpg'
+                ],
                 specs: {
                     'Business Type': 'Exporter and Importer, Supplier',
                     'Packaging': 'Export Master Cartons (360 Eggs)',
@@ -477,6 +576,11 @@ const productsData = {
                 priceDetails: '',
                 moq: '500 Liters (MOQ)',
                 image: 'assets/images/gallery-1.jpg',
+                images: [
+                    'assets/images/gallery-1.jpg',
+                    'assets/images/Sunflower Oil.jpg',
+                    'assets/images/vegetable oil.jpg'
+                ],
                 specs: {
                     'Business Type': 'Exporter and Importer, Supplier',
                     'Packaging': '1L, 5L PET Bottles, Drums',
@@ -492,6 +596,12 @@ const productsData = {
                 priceDetails: '',
                 moq: '100 Cartons (MOQ)',
                 image: 'assets/images/ketchup.jpg',
+                images: [
+                    'assets/images/ketchup.jpg',
+                    'assets/images/ketchup1.jpg',
+                    'assets/images/ketchup (2).jpg',
+                    'assets/images/ketchup (3).jpg'
+                ],
                 specs: {
                     'Business Type': 'Exporter and Importer, Supplier',
                     'Packaging': 'Squeeze Bottles, Pouches, Bulk Jars',
@@ -507,6 +617,10 @@ const productsData = {
                 priceDetails: '',
                 moq: '100 Cartons (MOQ)',
                 image: 'assets/images/Tomato-Paste.jpg',
+                images: [
+                    'assets/images/Tomato-Paste.jpg',
+                    'assets/images/general items.png'
+                ],
                 specs: {
                     'Business Type': 'Exporter and Importer, Supplier',
                     'Brix': '28-30%',
@@ -525,6 +639,19 @@ function getUrlParameter(name) {
     const regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
     const results = regex.exec(location.search);
     return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+}
+
+// Switch main product image on thumbnail click
+function switchProductImage(thumbElement, imgSrc) {
+    const mainImg = document.getElementById('main-product-img');
+    if (mainImg) {
+        mainImg.src = imgSrc;
+    }
+    const thumbnails = document.querySelectorAll('.product-thumbnail');
+    thumbnails.forEach(t => t.classList.remove('active'));
+    if (thumbElement) {
+        thumbElement.classList.add('active');
+    }
 }
 
 // Load products based on URL parameters
@@ -600,19 +727,19 @@ function renderMiniCard(product, category) {
 
 // Render detailed product card for single product view
 function renderDetailCard(product) {
+    const galleryImages = (product.images && product.images.length > 0) ? product.images : [product.image];
     return `
         <div class="product-detail-card">
             <div class="product-image-section">
                 <div class="product-main-image">
-                    <img src="${product.image}" alt="${product.name}">
+                    <img id="main-product-img" src="${galleryImages[0]}" alt="${product.name}">
                 </div>
                 <div class="product-thumbnails">
-                    <div class="product-thumbnail">
-                        <img src="${product.image}" alt="${product.name}">
-                    </div>
-                    <div class="product-thumbnail">
-                        <img src="${product.image}" alt="${product.name}">
-                    </div>
+                    ${galleryImages.map((imgSrc, index) => `
+                        <div class="product-thumbnail ${index === 0 ? 'active' : ''}" onclick="switchProductImage(this, '${imgSrc}')">
+                            <img src="${imgSrc}" alt="${product.name}">
+                        </div>
+                    `).join('')}
                 </div>
             </div>
             <div class="product-info-section">

@@ -743,6 +743,91 @@ nav {
     position: relative;
 }
 
+/* White Section Divider Banner */
+.dark-green-banner-section {
+    background-color: #ffffff;
+    color: #2c3e30;
+    padding: 5rem 0;
+    text-align: center;
+    position: relative;
+    border: none;
+}
+
+.dark-green-banner-content {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+.dark-green-banner-badge {
+    display: inline-block;
+    background-color: rgba(197, 160, 89, 0.15);
+    color: #C5A059;
+    border: 1px solid #C5A059;
+    padding: 0.4rem 1.2rem;
+    border-radius: 30px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-bottom: 1.2rem;
+}
+
+.dark-green-banner-title {
+    font-size: 2.5rem;
+    color: #4E6E5D;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    line-height: 1.3;
+}
+
+.dark-green-banner-text {
+    font-size: 1.1rem;
+    color: #6b7c70;
+    line-height: 1.8;
+    margin-bottom: 2rem;
+}
+
+.dark-green-banner-actions {
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.dark-green-banner-btn-primary {
+    background-color: #C5A059;
+    color: #ffffff;
+    padding: 0.85rem 2.2rem;
+    border-radius: 5px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(197, 160, 89, 0.3);
+}
+
+.dark-green-banner-btn-primary:hover {
+    background-color: #b8944d;
+    transform: translateY(-2px);
+}
+
+.dark-green-banner-btn-secondary {
+    background-color: #4E6E5D;
+    color: #ffffff;
+    border: 1px solid #4E6E5D;
+    padding: 0.85rem 2.2rem;
+    border-radius: 5px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.dark-green-banner-btn-secondary:hover {
+    background-color: #2c3e30;
+    border-color: #2c3e30;
+    transform: translateY(-2px);
+}
+
 .why-choose-header {
     max-width: 900px;
     margin: 0 auto 4rem;
@@ -1010,7 +1095,7 @@ nav {
     }
 }
 
-/* Product Gallery Section */
+/* Product Gallery Section (Restored Previous Asymmetric Style) */
 .product-gallery-section {
     padding: 8rem 0 5rem;
     background-color: #8fa395;
@@ -1023,12 +1108,14 @@ nav {
     font-size: 2.5rem;
     color: var(--white);
     margin-bottom: 1rem;
+    text-align: center;
 }
 
 .product-gallery-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-auto-rows: 250px;
+    grid-auto-flow: dense;
     gap: 1.5rem;
     max-width: 1200px;
     margin: 0 auto;
@@ -1082,7 +1169,7 @@ nav {
     margin: 0;
 }
 
-/* Gallery Item Sizes */
+/* Gallery Item Sizes - Restored Original Asymmetric Spans */
 .gallery-item-new.portrait {
     grid-row: span 2;
 }
@@ -1100,10 +1187,6 @@ nav {
     grid-column: span 1;
     grid-row: span 1;
 }
-
-.gallery-item-new.large {
-    grid-column: span 2;
-    grid-row: span 2;
 }
 
 /* Responsive Product Gallery */
