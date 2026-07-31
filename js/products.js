@@ -536,9 +536,10 @@ const productsData = {
                 price: 'Ask for Price',
                 priceDetails: '',
                 moq: '500 Kilogram (MOQ)',
-                image: 'assets/images/french frises.png',
+                image: 'assets/images/FRENCH FRIES .png',
                 images: [
-                    'assets/images/french frises.png',
+                    'assets/images/FRENCH FRIES .png',
+                    'assets/images/french fries 2.png',
                     'assets/images/frozen french frises.png'
                 ],
                 specs: {
@@ -548,6 +549,29 @@ const productsData = {
                 },
                 description: 'Crispy premium frozen french fries made from top-grade potatoes.',
                 features: ['Golden crispiness', 'Easy to fry', 'Long shelf life']
+            },
+            {
+                id: 'frozen-chicken',
+                name: 'Frozen Whole Chicken & Cuts',
+                price: 'Ask for Price',
+                priceDetails: '',
+                moq: '500 Kilogram (MOQ)',
+                image: 'assets/images/frozen chicken 1.png',
+                images: [
+                    'assets/images/frozen chicken 1.png',
+                    'assets/images/chicken breast.png',
+                    'assets/images/chicken drumstick.png',
+                    'assets/images/chicken wings.png',
+                    'assets/images/raw-chicken-meat-isolated-white.jpg'
+                ],
+                specs: {
+                    'Business Type': 'Exporter and Importer, Supplier',
+                    'Cuts Available': 'Whole, Chest, Leg, Wings, Liver',
+                    'Storage': 'Deep Frozen (-18°C)',
+                    'Certification': 'HALAL Certified'
+                },
+                description: 'Premium grade frozen whole chicken and individual cuts including chest, leg, wings, and liver.',
+                features: ['HALAL certified', 'Multiple cut options', 'Hygienically processed', 'Export packaging']
             },
             {
                 id: 'eggs',
@@ -628,6 +652,110 @@ const productsData = {
                 },
                 description: 'Double concentrated thick tomato paste for rich sauces and stews.',
                 features: ['Double concentrated', 'Natural red color', 'Pure tomato paste']
+            }
+        ]
+    },
+    'frozen-chicken': {
+        title: 'Frozen Chicken & Poultry Cuts',
+        description: 'Premium grade frozen whole chicken and fresh poultry cuts including chest, leg, wings, and liver, hygienically processed and certified HALAL.',
+        products: [
+            {
+                id: 'full-chicken',
+                name: 'Full Whole Chicken',
+                price: 'Ask for Price',
+                priceDetails: '',
+                moq: '500 Kilogram (MOQ)',
+                image: 'assets/images/frozen chicken 1.png',
+                images: [
+                    'assets/images/frozen chicken 1.png',
+                    'assets/images/chicken-isolated.jpg',
+                    'assets/images/raw-chicken-meat-isolated-white.jpg'
+                ],
+                specs: {
+                    'Business Type': 'Exporter and Importer, Supplier',
+                    'Certification': 'HALAL Certified, ISO Quality',
+                    'Storage': 'Deep Frozen (-18°C)',
+                    'Grade Available': 'Grade A Whole Bird'
+                },
+                description: 'Hygienically processed whole frozen chicken, tender, juicy, and vacuum-sealed for maximum freshness.',
+                features: ['HALAL certified', 'Deep frozen (-18°C)', 'Clean & ready to cook', 'Export grade quality']
+            },
+            {
+                id: 'chicken-chest',
+                name: 'Chicken Chest (Breast)',
+                price: 'Ask for Price',
+                priceDetails: '',
+                moq: '250 Kilogram (MOQ)',
+                image: 'assets/images/chicken breast.png',
+                images: [
+                    'assets/images/chicken breast.png',
+                    'assets/images/raw-chicken-meat-isolated-white.jpg'
+                ],
+                specs: {
+                    'Business Type': 'Exporter and Importer, Supplier',
+                    'Cut Type': 'Skinless Boneless Breast / Chest',
+                    'Storage': 'Frozen (-18°C)',
+                    'Quality': 'Grade A Premium'
+                },
+                description: 'Lean and tender chicken breast/chest cut, high in protein and perfectly trimmed.',
+                features: ['Lean protein cut', 'Boneless & skinless', 'Hygienically packaged']
+            },
+            {
+                id: 'chicken-leg',
+                name: 'Chicken Leg & Drumstick',
+                price: 'Ask for Price',
+                priceDetails: '',
+                moq: '250 Kilogram (MOQ)',
+                image: 'assets/images/chicken drumstick.png',
+                images: [
+                    'assets/images/chicken drumstick.png',
+                    'assets/images/raw-chicken-meat-isolated-white.jpg'
+                ],
+                specs: {
+                    'Business Type': 'Exporter and Importer, Supplier',
+                    'Storage': 'Frozen (-18°C)',
+                    'Grade': 'Grade A Fresh Cut'
+                },
+                description: 'Juicy chicken leg quarters and drumsticks, fresh-frozen for rich flavor and tender texture.',
+                features: ['Juicy & flavorful', 'HALAL certified', 'IQF frozen']
+            },
+            {
+                id: 'chicken-wings',
+                name: 'Chicken Wings',
+                price: 'Ask for Price',
+                priceDetails: '',
+                moq: '250 Kilogram (MOQ)',
+                image: 'assets/images/chicken wings.png',
+                images: [
+                    'assets/images/chicken wings.png',
+                    'assets/images/raw-chicken-meat-isolated-white.jpg'
+                ],
+                specs: {
+                    'Business Type': 'Exporter and Importer, Supplier',
+                    'Cut Type': '3-Joint / 2-Joint Wings',
+                    'Storage': 'Frozen (-18°C)'
+                },
+                description: 'Fresh frozen 3-joint and 2-joint chicken wings, ideal for frying, grilling, and appetizers.',
+                features: ['Prime wing cuts', 'Crispy & tender', 'Export packaging']
+            },
+            {
+                id: 'chicken-liver',
+                name: 'Chicken Liver',
+                price: 'Ask for Price',
+                priceDetails: '',
+                moq: '100 Kilogram (MOQ)',
+                image: 'assets/images/raw-chicken-meat-isolated-white.jpg',
+                images: [
+                    'assets/images/raw-chicken-meat-isolated-white.jpg',
+                    'assets/images/chicken-isolated.jpg'
+                ],
+                specs: {
+                    'Business Type': 'Exporter and Importer, Supplier',
+                    'Storage': 'Deep Frozen (-18°C)',
+                    'Packaging': '5kg / 10kg Master Carton'
+                },
+                description: 'Fresh frozen nutrient-rich chicken liver, cleaned and blast-frozen for premium taste.',
+                features: ['Nutrient dense', 'Hygienically cleaned', 'HALAL certified']
             }
         ]
     }
