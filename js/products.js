@@ -551,29 +551,6 @@ const productsData = {
                 features: ['Golden crispiness', 'Easy to fry', 'Long shelf life']
             },
             {
-                id: 'frozen-chicken',
-                name: 'Frozen Whole Chicken & Cuts',
-                price: 'Ask for Price',
-                priceDetails: '',
-                moq: '500 Kilogram (MOQ)',
-                image: 'assets/images/frozen chicken 1.png',
-                images: [
-                    'assets/images/frozen chicken 1.png',
-                    'assets/images/chicken breast.png',
-                    'assets/images/chicken drumstick.png',
-                    'assets/images/chicken wings.png',
-                    'assets/images/raw-chicken-meat-isolated-white.jpg'
-                ],
-                specs: {
-                    'Business Type': 'Exporter and Importer, Supplier',
-                    'Cuts Available': 'Whole, Chest, Leg, Wings, Liver',
-                    'Storage': 'Deep Frozen (-18°C)',
-                    'Certification': 'HALAL Certified'
-                },
-                description: 'Premium grade frozen whole chicken and individual cuts including chest, leg, wings, and liver.',
-                features: ['HALAL certified', 'Multiple cut options', 'Hygienically processed', 'Export packaging']
-            },
-            {
                 id: 'eggs',
                 name: 'Eggs',
                 price: 'Ask for Price',
