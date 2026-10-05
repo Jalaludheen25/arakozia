@@ -2069,6 +2069,88 @@ footer {
     font-weight: 500;
 }
 
+/* ISO Certificate Document Thumbnail */
+.iso-cert-thumbnail {
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+    margin: 1.2rem 0;
+    cursor: pointer;
+    border: 1px solid rgba(78, 110, 93, 0.2);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+    background: #f8faf8;
+}
+
+.iso-cert-thumbnail img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    object-position: top center;
+    display: block;
+    transition: transform 0.4s ease;
+}
+
+.iso-cert-thumbnail:hover img {
+    transform: scale(1.04);
+}
+
+.iso-cert-hover-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(44, 62, 48, 0.82);
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    font-size: 0.88rem;
+    font-weight: 600;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.iso-cert-thumbnail:hover .iso-cert-hover-overlay {
+    opacity: 1;
+}
+
+/* Modal Certificate Image */
+.modal-cert-image-wrap {
+    margin-bottom: 1.5rem;
+    text-align: center;
+    background: #f4f8f4;
+    padding: 1rem;
+    border-radius: 14px;
+    border: 1px solid rgba(78, 110, 93, 0.15);
+}
+
+.modal-cert-img {
+    max-width: 100%;
+    height: auto;
+    max-height: 380px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    border: 1px solid #d5e0d7;
+    transition: transform 0.3s ease;
+    cursor: zoom-in;
+}
+
+.modal-cert-img:hover {
+    transform: scale(1.02);
+}
+
+.modal-cert-img-caption {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    margin-top: 0.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+}
+
 .iso-card-body {
     border-top: 1px dashed #e0e6e1;
     border-bottom: 1px dashed #e0e6e1;

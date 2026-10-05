@@ -193,6 +193,7 @@ const isoCertData = {
         system: 'Quality Management System',
         badge: 'QMS CERTIFIED',
         certNo: 'LMX-GAC-01-10043',
+        certImage: 'assets/images/iso-9001-cert.jpg',
         entity: 'ARAKOZIA FOODSTUFF TRADING LLC',
         address: 'Office No.904, Executive Bay - B, Business Bay, Dubai, U.A.E',
         scope: '“Trading and Sale of Food Products, Agricultural Commodities, Fresh, Chilled and Frozen Meat, Fish, Seafood and Flavored Fragrances.”',
@@ -211,6 +212,7 @@ const isoCertData = {
         system: 'Environmental Management System',
         badge: 'EMS CERTIFIED',
         certNo: 'LMX-GAC-01-20030',
+        certImage: 'assets/images/iso-14001-cert.jpg',
         entity: 'ARAKOZIA FOODSTUFF TRADING LLC',
         address: 'Office No.904, Executive Bay - B, Business Bay, Dubai, U.A.E',
         scope: '“Trading and Sale of Food Products, Agricultural Commodities, Fresh, Chilled and Frozen Meat, Fish, Seafood and Flavored Fragrances.”',
@@ -229,6 +231,7 @@ const isoCertData = {
         system: 'Occupational Health and Safety Management System',
         badge: 'OHSMS CERTIFIED',
         certNo: 'LMX-GAC-01-30029',
+        certImage: 'assets/images/iso-45001-cert.jpg',
         entity: 'ARAKOZIA FOODSTUFF TRADING LLC',
         address: 'Office No.904, Executive Bay - B, Business Bay, Dubai, U.A.E',
         scope: '“Trading and Sale of Food Products, Agricultural Commodities, Fresh, Chilled and Frozen Meat, Fish, Seafood and Flavored Fragrances.”',
@@ -259,6 +262,15 @@ function openCertModal(certKey) {
             <h3>${data.system}</h3>
         </div>
         <div class="modal-cert-body">
+            ${data.certImage ? `
+            <div class="modal-cert-image-wrap">
+                <a href="${data.certImage}" target="_blank" title="Click to view full size certificate document">
+                    <img src="${data.certImage}" alt="${data.standard} Certificate Document" class="modal-cert-img">
+                </a>
+                <p class="modal-cert-img-caption"><i class="fa-solid fa-expand"></i> Click image to open high-resolution certificate document</p>
+            </div>
+            ` : ''}
+
             <div class="modal-cert-section">
                 <h4><i class="fa-solid fa-building"></i> Certified Organization</h4>
                 <p class="modal-entity-name"><strong>${data.entity}</strong></p>
