@@ -735,6 +735,33 @@ const productsData = {
                 features: ['Nutrient dense', 'Hygienically cleaned', 'HALAL certified']
             }
         ]
+    },
+    'flavored-fragrances': {
+        title: 'Flavored Fragrances & Essential Aromatic Concentrates',
+        description: 'Certified Exporters and Importers of Flavored Fragrances, Food-Grade Essence, and Essential Aromatic Concentrates.',
+        products: [
+            {
+                id: 'flavored-fragrances-extracts',
+                name: 'Flavored Fragrances & Essential Essence',
+                price: 'Ask for Price',
+                priceDetails: '',
+                moq: '100 Kilogram (MOQ)',
+                image: 'assets/images/gallery-1.jpg',
+                images: [
+                    'assets/images/gallery-1.jpg',
+                    'assets/images/gallery-3.jpg'
+                ],
+                specs: {
+                    'Business Type': 'Exporter and Importer, Supplier, Trader',
+                    'Certification': 'ISO 9001:2015, ISO 14001:2015, ISO 45001:2018 Certified',
+                    'Scope of Trade': 'Trading and Sale of Flavored Fragrances',
+                    'Packaging Type': 'Sealed Drums, Custom Containers',
+                    'Quality Grade': 'Export Grade A'
+                },
+                description: 'Premium food-grade flavored fragrances and natural essences certified for international trading and distribution under ARAKOZIA FOODSTUFF TRADING LLC accredited ISO scope.',
+                features: ['Natural aromatic formulation', 'ISO 9001, 14001 & 45001 certified', 'Export grade sealed packaging']
+            }
+        ]
     }
 };
 

@@ -185,3 +185,128 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 });
+
+// ISO Certificate Modal Functions & Records
+const isoCertData = {
+    iso9001: {
+        standard: 'ISO 9001:2015',
+        system: 'Quality Management System',
+        badge: 'QMS CERTIFIED',
+        certNo: 'LMX-GAC-01-10043',
+        entity: 'ARAKOZIA FOODSTUFF TRADING LLC',
+        address: 'Office No.904, Executive Bay - B, Business Bay, Dubai, U.A.E',
+        scope: '“Trading and Sale of Food Products, Agricultural Commodities, Fresh, Chilled and Frozen Meat, Fish, Seafood and Flavored Fragrances.”',
+        initialReg: '02-10-2026',
+        validFrom: '02-10-2026',
+        validUntil: '01-10-2027',
+        recertDue: '01-10-2029',
+        body: 'Lead Max Quality & Standardization L.L.C',
+        bodyAddress: 'Office M-11, Dar Al Safiya Building, P.O Box 97199, Abu Hail, Dubai, UAE (UAE | Bahrain | India)',
+        signatory: 'Aveesh Sivaprasad (General Manager)',
+        accreditation: 'GCC Accreditation Center (GAC) - ISO/IEC 17021-1:2015 MSC 0013 & IAF Multilateral Recognition Arrangement Member',
+        verifyUrl: 'www.leadmaxcert.com'
+    },
+    iso14001: {
+        standard: 'ISO 14001:2015',
+        system: 'Environmental Management System',
+        badge: 'EMS CERTIFIED',
+        certNo: 'LMX-GAC-01-20030',
+        entity: 'ARAKOZIA FOODSTUFF TRADING LLC',
+        address: 'Office No.904, Executive Bay - B, Business Bay, Dubai, U.A.E',
+        scope: '“Trading and Sale of Food Products, Agricultural Commodities, Fresh, Chilled and Frozen Meat, Fish, Seafood and Flavored Fragrances.”',
+        initialReg: '02-10-2026',
+        validFrom: '02-10-2026',
+        validUntil: '01-10-2027',
+        recertDue: '01-10-2029',
+        body: 'Lead Max Quality & Standardization L.L.C',
+        bodyAddress: 'Office M-11, Dar Al Safiya Building, P.O Box 97199, Abu Hail, Dubai, UAE (UAE | Bahrain | India)',
+        signatory: 'Aveesh Sivaprasad (General Manager)',
+        accreditation: 'GCC Accreditation Center (GAC) - ISO/IEC 17021-1:2015 MSC 0013 & IAF Multilateral Recognition Arrangement Member',
+        verifyUrl: 'www.leadmaxcert.com'
+    },
+    iso45001: {
+        standard: 'ISO 45001:2018',
+        system: 'Occupational Health and Safety Management System',
+        badge: 'OHSMS CERTIFIED',
+        certNo: 'LMX-GAC-01-30029',
+        entity: 'ARAKOZIA FOODSTUFF TRADING LLC',
+        address: 'Office No.904, Executive Bay - B, Business Bay, Dubai, U.A.E',
+        scope: '“Trading and Sale of Food Products, Agricultural Commodities, Fresh, Chilled and Frozen Meat, Fish, Seafood and Flavored Fragrances.”',
+        initialReg: '02-10-2026',
+        validFrom: '02-10-2026',
+        validUntil: '01-10-2027',
+        recertDue: '01-10-2029',
+        body: 'Lead Max Quality & Standardization L.L.C',
+        bodyAddress: 'Office M-11, Dar Al Safiya Building, P.O Box 97199, Abu Hail, Dubai, UAE (UAE | Bahrain | India)',
+        signatory: 'Aveesh Sivaprasad (General Manager)',
+        accreditation: 'GCC Accreditation Center (GAC) - ISO/IEC 17021-1:2015 MSC 0013 & IAF Multilateral Recognition Arrangement Member',
+        verifyUrl: 'www.leadmaxcert.com'
+    }
+};
+
+function openCertModal(certKey) {
+    const data = isoCertData[certKey];
+    if (!data) return;
+
+    const overlay = document.getElementById('certModalOverlay');
+    const content = document.getElementById('certModalContent');
+    if (!overlay || !content) return;
+
+    content.innerHTML = `
+        <div class="modal-cert-header">
+            <span class="modal-cert-tag">${data.badge}</span>
+            <h2>${data.standard}</h2>
+            <h3>${data.system}</h3>
+        </div>
+        <div class="modal-cert-body">
+            <div class="modal-cert-section">
+                <h4><i class="fa-solid fa-building"></i> Certified Organization</h4>
+                <p class="modal-entity-name"><strong>${data.entity}</strong></p>
+                <p class="modal-address">${data.address}</p>
+            </div>
+
+            <div class="modal-cert-section">
+                <h4><i class="fa-solid fa-file-signature"></i> Scope of Certification</h4>
+                <p class="modal-scope-box">${data.scope}</p>
+            </div>
+
+            <div class="modal-cert-section">
+                <h4><i class="fa-solid fa-calendar-days"></i> Certification Validity & Metadata</h4>
+                <div class="modal-grid-2">
+                    <div><strong>Certificate No:</strong> <span class="cert-no-highlight">${data.certNo}</span></div>
+                    <div><strong>Initial Registration:</strong> ${data.initialReg}</div>
+                    <div><strong>Valid From:</strong> ${data.validFrom}</div>
+                    <div><strong>Valid Until:</strong> ${data.validUntil}</div>
+                    <div><strong>Recertification Due:</strong> ${data.recertDue}</div>
+                </div>
+            </div>
+
+            <div class="modal-cert-section">
+                <h4><i class="fa-solid fa-award"></i> Certification & Accreditation Body</h4>
+                <p><strong>Issued By:</strong> ${data.body}</p>
+                <p><strong>General Manager / Signatory:</strong> ${data.signatory}</p>
+                <p><strong>Issuer Address:</strong> ${data.bodyAddress}</p>
+                <p><strong>Accreditation Center:</strong> ${data.accreditation}</p>
+                <p><strong>Official Verification:</strong> <a href="http://${data.verifyUrl}" target="_blank" rel="noopener noreferrer">${data.verifyUrl}</a></p>
+            </div>
+        </div>
+    `;
+
+    overlay.classList.add('active');
+    document.body.style.overflow = 'hidden';
+}
+
+function closeCertModal() {
+    const overlay = document.getElementById('certModalOverlay');
+    if (overlay) {
+        overlay.classList.remove('active');
+        document.body.style.overflow = '';
+    }
+}
+
+document.addEventListener('click', (e) => {
+    const overlay = document.getElementById('certModalOverlay');
+    if (overlay && e.target === overlay) {
+        closeCertModal();
+    }
+});
