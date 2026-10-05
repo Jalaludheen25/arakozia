@@ -194,6 +194,7 @@ const isoCertData = {
         badge: 'QMS CERTIFIED',
         certNo: 'LMX-GAC-01-10043',
         certImage: 'assets/images/iso-9001-cert.jpg',
+        certPdf: 'assets/images/certificates/Certificate-LMX-GAC-01-10043.pdf',
         entity: 'ARAKOZIA FOODSTUFF TRADING LLC',
         address: 'Office No.904, Executive Bay - B, Business Bay, Dubai, U.A.E',
         scope: '“Trading and Sale of Food Products, Agricultural Commodities, Fresh, Chilled and Frozen Meat, Fish, Seafood and Flavored Fragrances.”',
@@ -213,6 +214,7 @@ const isoCertData = {
         badge: 'EMS CERTIFIED',
         certNo: 'LMX-GAC-01-20030',
         certImage: 'assets/images/iso-14001-cert.jpg',
+        certPdf: 'assets/images/certificates/Certificate-LMX-GAC-01-20030.pdf',
         entity: 'ARAKOZIA FOODSTUFF TRADING LLC',
         address: 'Office No.904, Executive Bay - B, Business Bay, Dubai, U.A.E',
         scope: '“Trading and Sale of Food Products, Agricultural Commodities, Fresh, Chilled and Frozen Meat, Fish, Seafood and Flavored Fragrances.”',
@@ -232,6 +234,7 @@ const isoCertData = {
         badge: 'OHSMS CERTIFIED',
         certNo: 'LMX-GAC-01-30029',
         certImage: 'assets/images/iso-45001-cert.jpg',
+        certPdf: 'assets/images/certificates/Certificate-LMX-GAC-01-30029.pdf',
         entity: 'ARAKOZIA FOODSTUFF TRADING LLC',
         address: 'Office No.904, Executive Bay - B, Business Bay, Dubai, U.A.E',
         scope: '“Trading and Sale of Food Products, Agricultural Commodities, Fresh, Chilled and Frozen Meat, Fish, Seafood and Flavored Fragrances.”',
@@ -264,10 +267,11 @@ function openCertModal(certKey) {
         <div class="modal-cert-body">
             ${data.certImage ? `
             <div class="modal-cert-image-wrap">
-                <a href="${data.certImage}" target="_blank" title="Click to view full size certificate document">
-                    <img src="${data.certImage}" alt="${data.standard} Certificate Document" class="modal-cert-img">
-                </a>
-                <p class="modal-cert-img-caption"><i class="fa-solid fa-expand"></i> Click image to open high-resolution certificate document</p>
+                <img src="${data.certImage}" alt="${data.standard} Certificate Document" class="modal-cert-img">
+                <p class="modal-cert-img-caption">
+                    <i class="fa-solid fa-file-pdf"></i>
+                    <a href="${data.certPdf}" target="_blank" download style="color: var(--primary-color); font-weight:600;">Download Original PDF Certificate</a>
+                </p>
             </div>
             ` : ''}
 
